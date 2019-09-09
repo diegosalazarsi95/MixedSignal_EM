@@ -1,0 +1,6 @@
+#!/bin/csh -f
+
+vcs -full64 -ad -ams_discipline logic -ams *.vams -R -debug_all -ucli -do xavcs.ucli
+wv xavcs.vpd
+
+

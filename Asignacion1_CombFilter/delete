@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Delete files related with simulation
+pj="/mnt/vol_NFS_Zener/WD_ESPEC/disalazar/EM_Projects/MixedSignal/Asignacion1_CombFilter"
+
+rm -rf ${pj}/genie.ign ${pj}/genie.log ${pj}/simv.daidir ${pj}/simv.msv ${pj}/sxcmd.log ${pj}/csrc ${pj}/simv ${pj}/top.log ${pj}/top.pvadir ${pj}/top.valog ${pj}/ucli.key ${pj}/swave_compile_done ${pj}/xavcs.vpd ${pj}/*~ 

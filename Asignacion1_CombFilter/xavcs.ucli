@@ -1,0 +1,3 @@
+dump -file xavcs.vpd -type vpd
+dump -add top -depth 0
+run
