@@ -7,9 +7,50 @@
 `include "disciplines.vams"
 `timescale 1ps / 1ps
 
+/*
+module adc(out, in, clk);
+	parameter integer bits = 8 from [1:24];
+	parameter real fullscale = 1.0;
+	parameter real td = 0;
+	parameter real tt = 0;
+	parameter real vdd = 1.8;
+	parameter real thresh = vdd/2;
+	parameter integer dir = 1 from [-1:1] exclude 0;
+	
+	input in,clk;
+	output [0:bits-1] out;
+	logic in,clk;
+	electrical [0:bits-1] out;
+	real sample, midpoint;
+	integer result[0:bits-1];
+	genvar i;
+
+	analog begin
+		@(cross(V(clk)-thresh,+1) or initial_step) begin
+			sample = V(in);
+			midpoint = fullscale/2.0;
+			for (i=bits-1;i>=0;i=i-1) begin
+				if (sample>midpoint) begin
+					result[i]=vdd;
+					sample=sample-midpoint;				
+				end else begin
+					result[i]=0.0;				
+				end
+				sample = 2.0*sample;
+			end
+		end
+		for (i=0;i<bits;i=i+1) begin
+			V(out[i])<+transition(result[i],td,tt);
+		end
+	end
+endmodule
+*/
+
+
+
 module adc(out, in, clk);
     parameter integer bits = 8 from [1:24];   // resolution (bits)
-    parameter real fullscale = 1.0;           // input range is from 0 to fullscale (V)
+    parameter real fullscale =1;           // input range is from 0 to fullscale (V)
     parameter real td = 0;                    // delay from clock to output (ps)
     input in, clk;
     output out;
@@ -33,3 +74,4 @@ module adc(out, in, clk);
     end // End always
 
 endmodule
+

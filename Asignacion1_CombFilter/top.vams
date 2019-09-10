@@ -21,11 +21,11 @@ module top();
     reg8 xREG8(out_adc,out_reg,clk);
     add8 xADD8(out_adc,out_reg,out_add);
 
-    always  #5000 clk = ~clk; //reloj de 100 MHz
+    always  #1000 clk = ~clk; //reloj de 100 MHz
 
     initial begin
         clk = 1'b0;
-	#400000 $finish();   // 4usec
+	#900000 $finish();   // 9usec
     end
 endmodule
 

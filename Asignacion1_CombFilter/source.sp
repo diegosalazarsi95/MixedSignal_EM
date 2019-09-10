@@ -7,7 +7,7 @@
 .GLOBAL gnd!
 
 .subckt source out1
-v0 out1 gnd! dc=0 sin ( 0.2 0.2 150MEG 25n 0 0 )
+v0 out1 gnd! dc=0 sin ( 0.25 0.2 501MEG 25n 0 0 )
 .ends
 
 .endcd
