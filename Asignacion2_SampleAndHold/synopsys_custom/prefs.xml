@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format name="synopsysPrefs" version="1.0">
+        <preferences>
+                <pref value="/mnt/vol_NFS_Zener/WD_ESPEC/disalazar/EM_Projects/MixedSignal/Asignacion2_SampleAndHold/DSS_cells_opAmp.sp" name="dbExportNetlistFile"/>
+                <pref value="HSPICE" name="dbExportNetlistFormat"/>
+                <pref value="DSS_cells/opAmp/schematic" name="dbExportNetlistLCV"/>
+                <pref value="auCdl cmos_sch schematic" name="dbExportNetlistViewSearchList"/>
+                <pref value="./strmInOut.layertable" name="dbExportStreamLayerMapFile"/>
+                <pref value="./strmInOut.layertable" name="dbImportStreamLayerMapFile"/>
+                <pref value="true" name="dbViewWordWrap"/>
+                <pref value="printInfo" name="deActiveObjectToolbarProc"/>
+                <pref value="cmos_sch schematic symbol hspice verilog veriloga" name="deCrossCheckViews"/>
+                <pref value="TECH_XH018" name="dmNewLibTechLib"/>
+                <pref value="lib" name="dmNewLibTechType"/>
+                <pref value="false" name="giShowFrameTabs"/>
+                <pref value="true" name="leAutoAbutment"/>
+                <pref value="true" name="leAutoHaloOverlap"/>
+                <pref value="true" name="leCheckViasDialogMode"/>
+                <pref value="true" name="leDrawInstPins"/>
+                <pref value="term" name="leDrawPinLabel"/>
+                <pref value="master" name="leInstLabel"/>
+                <pref value="virtuosoDefaultExtractorSetup" name="leUserDefinedConstraintGroup"/>
+                <pref value="MET1 drawing" name="lxLeftRightPinLPP"/>
+                <pref value="m M mTotal" name="lxMFactorNames"/>
+                <pref value="false" name="lxSplit"/>
+                <pref value="MET1 drawing" name="lxTopBottomPinLPP"/>
+                <pref value="true" name="nlCDLGenerateEmptySubckts"/>
+                <pref value="hspice hspiceD schematic cmos_sch spice veriloga" name="saHSPICEEnvOptsSwitchViewList"/>
+                <pref value="{./Hspice/lpmos/xh018.lib tm} {./Hspice/lpmos/param.lib 3s} {./Hspice/lpmos/config.lib default}" name="saHSPICEModelsFiles"/>
+                <pref value="true" name="seCreateInstDialogMode"/>
+                <pref value="true" name="seCreateLabelDialogMode"/>
+                <pref value="true" name="seCreateNoteDialogMode"/>
+                <pref value="true" name="seImportSymbolDialogMode"/>
+                <pref value="cmos_sch schematic symbol" name="seViewSearchList"/>
+                <pref value="auCdl cmos_sch schematic" name="xtCDLGlobalSearchList"/>
+                <pref value="cmos_sch schematic auCdl symbol" name="xtCDLViewSearchList"/>
+                <pref value="./ICValidator" name="xtDRCICVIncludePaths"/>
+                <pref value="./ICValidator/xh018_1143_DRC_MET4_METMID_METTHK.rs" name="xtDRCICVRunsetFile"/>
+                <pref value="IC Validator" name="xtDRCTool"/>
+                <pref value="IC Validator" name="xtLPELVSTool"/>
+                <pref value="./StarRC/star_cmd" name="xtLPEStarRunsetFile"/>
+                <pref value="./ICValidator ./StarRC" name="xtLVSICVIncludePaths"/>
+                <pref value="./StarRC/xh018_1143_StarRCXT_MET4_METMID_METTHK.rs" name="xtLVSICVRunsetFile"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+                <pref value="background_netlisting sae_shell_netlist" name="xtNetlistingPrefixes"/>
+                <pref value="./strmInOut.layertable" name="xtPVLayerMapFile"/>
+                <pref value="sae_shell_results_viewer" name="xtSAEShellPrefixes"/>
+                <pref value="HSIM HSPICE Nanosim Spectre VHDL Verilog XA FineSimPro FineSimProSpectre FineSimProVCS HSIMHSPICE XAEldo XAHSPICE XASpectre XAVCSHSPICE" name="xtSimulationPrefixes"/>
+                <pref value="./StarRC/OA_DEVICE_MAP" name="xtStarOADeviceMappingFile"/>
+                <pref value="./StarRC/xh018_xx43_MET4_METMID_METTHK_typ.nxtgrd" name="xtStarTcadGrdFile"/>
+        </preferences>
+</file-format>

@@ -1,0 +1,6 @@
+choose xa -hspice analog_circuit.sp -c xa.cfg -o top;
+use_spice -cell source;
+use_spice -cell folded_cascode;
+use_spice -cell opamp;
+use_spice -cell switchc;
+use_spice -cell sampleandhold;

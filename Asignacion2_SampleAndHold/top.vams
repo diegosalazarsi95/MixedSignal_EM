@@ -1,0 +1,50 @@
+/////////////////////////////////////////
+// Reg 8bits
+// Ing. Diego Salazar
+//
+/////////////////////////////////////////
+
+`timescale 1ps/1ps
+`include "disciplines.vams"
+
+module top();
+	//Signals
+    	reg clk;
+    	voltage vout,vsource;
+
+	//Clock definition
+	real x;
+	voltage clk_analog;
+	analog begin
+    		V(clk_analog)<+x;
+    	end 
+	always  #50000 clk = ~clk; //reloj 10 MHz 
+    	
+	always @(clk) begin
+    		case(clk)
+       			1'b1: begin x=1.8; end
+       			1'b0: begin x=0;   end
+    		endcase 
+    	end
+	
+	//Instation of analog circuits
+	source xsource (vsource);
+	sampleandhold xsampleandhold (clk_analog,vsource,vout);
+    
+	//Execution of tb
+    	initial begin
+        	clk = 1'b0;
+		#3000000 $finish();   // 10 ciclos de reloj
+    	end
+
+endmodule
+
+module source(output wire out1);
+    	electrical out1;
+endmodule
+
+module sampleandhold(input wire clk,input wire vin,output wire vout);
+	electrical clk;
+	electrical vin;
+	electrical vout;
+endmodule

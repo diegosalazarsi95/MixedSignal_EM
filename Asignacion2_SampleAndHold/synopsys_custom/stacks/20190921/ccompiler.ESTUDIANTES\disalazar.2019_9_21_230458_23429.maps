@@ -1,0 +1,680 @@
+00400000-10b11000 r-xp 00000000 00:14 7639009                            /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/platform/bin/cdesigner
+10d10000-11941000 rwxp 10710000 00:14 7639009                            /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/platform/bin/cdesigner
+11941000-15002000 rwxp 00000000 00:00 0 
+1509f000-26cfb000 rwxp 00000000 00:00 0                                  [heap]
+30ca000000-30ca040000 r-xp 00000000 fd:00 130321                         /lib64/libdbus-1.so.3.4.0
+30ca040000-30ca23f000 ---p 00040000 fd:00 130321                         /lib64/libdbus-1.so.3.4.0
+30ca23f000-30ca240000 r-xp 0003f000 fd:00 130321                         /lib64/libdbus-1.so.3.4.0
+30ca240000-30ca241000 rwxp 00040000 fd:00 130321                         /lib64/libdbus-1.so.3.4.0
+30ca400000-30ca422000 r-xp 00000000 fd:00 417261                         /usr/lib64/libdbus-glib-1.so.2.1.0
+30ca422000-30ca621000 ---p 00022000 fd:00 417261                         /usr/lib64/libdbus-glib-1.so.2.1.0
+30ca621000-30ca623000 rwxp 00021000 fd:00 417261                         /usr/lib64/libdbus-glib-1.so.2.1.0
+30ca800000-30ca84c000 r-xp 00000000 fd:00 421511                         /usr/lib64/libcups.so.2
+30ca84c000-30caa4b000 ---p 0004c000 fd:00 421511                         /usr/lib64/libcups.so.2
+30caa4b000-30caa50000 rwxp 0004b000 fd:00 421511                         /usr/lib64/libcups.so.2
+30cac00000-30cac10000 r-xp 00000000 fd:00 418143                         /usr/lib64/libavahi-client.so.3.2.5
+30cac10000-30cae0f000 ---p 00010000 fd:00 418143                         /usr/lib64/libavahi-client.so.3.2.5
+30cae0f000-30cae10000 rwxp 0000f000 fd:00 418143                         /usr/lib64/libavahi-client.so.3.2.5
+30cb000000-30cb010000 r-xp 00000000 fd:00 417358                         /usr/lib64/libhal.so.1.0.0
+30cb010000-30cb20f000 ---p 00010000 fd:00 417358                         /usr/lib64/libhal.so.1.0.0
+30cb20f000-30cb210000 rwxp 0000f000 fd:00 417358                         /usr/lib64/libhal.so.1.0.0
+359dc00000-359dc20000 r-xp 00000000 fd:00 130329                         /lib64/ld-2.12.so
+359de20000-359de21000 r-xp 00020000 fd:00 130329                         /lib64/ld-2.12.so
+359de21000-359de22000 rwxp 00021000 fd:00 130329                         /lib64/ld-2.12.so
+359de22000-359de23000 rwxp 00000000 00:00 0 
+359e000000-359e18b000 r-xp 00000000 fd:00 130336                         /lib64/libc-2.12.so
+359e18b000-359e38a000 ---p 0018b000 fd:00 130336                         /lib64/libc-2.12.so
+359e38a000-359e38e000 r-xp 0018a000 fd:00 130336                         /lib64/libc-2.12.so
+359e38e000-359e390000 rwxp 0018e000 fd:00 130336                         /lib64/libc-2.12.so
+359e390000-359e394000 rwxp 00000000 00:00 0 
+359e400000-359e417000 r-xp 00000000 fd:00 130358                         /lib64/libpthread-2.12.so
+359e417000-359e617000 ---p 00017000 fd:00 130358                         /lib64/libpthread-2.12.so
+359e617000-359e618000 r-xp 00017000 fd:00 130358                         /lib64/libpthread-2.12.so
+359e618000-359e619000 rwxp 00018000 fd:00 130358                         /lib64/libpthread-2.12.so
+359e619000-359e61d000 rwxp 00000000 00:00 0 
+359e800000-359e802000 r-xp 00000000 fd:00 130388                         /lib64/libdl-2.12.so
+359e802000-359ea02000 ---p 00002000 fd:00 130388                         /lib64/libdl-2.12.so
+359ea02000-359ea03000 r-xp 00002000 fd:00 130388                         /lib64/libdl-2.12.so
+359ea03000-359ea04000 rwxp 00003000 fd:00 130388                         /lib64/libdl-2.12.so
+359ec00000-359ec07000 r-xp 00000000 fd:00 130360                         /lib64/librt-2.12.so
+359ec07000-359ee06000 ---p 00007000 fd:00 130360                         /lib64/librt-2.12.so
+359ee06000-359ee07000 r-xp 00006000 fd:00 130360                         /lib64/librt-2.12.so
+359ee07000-359ee08000 rwxp 00007000 fd:00 130360                         /lib64/librt-2.12.so
+359f000000-359f083000 r-xp 00000000 fd:00 130373                         /lib64/libm-2.12.so
+359f083000-359f282000 ---p 00083000 fd:00 130373                         /lib64/libm-2.12.so
+359f282000-359f283000 r-xp 00082000 fd:00 130373                         /lib64/libm-2.12.so
+359f283000-359f284000 rwxp 00083000 fd:00 130373                         /lib64/libm-2.12.so
+359f800000-359f915000 r-xp 00000000 fd:00 130361                         /lib64/libglib-2.0.so.0.2800.8
+359f915000-359fb15000 ---p 00115000 fd:00 130361                         /lib64/libglib-2.0.so.0.2800.8
+359fb15000-359fb16000 rwxp 00115000 fd:00 130361                         /lib64/libglib-2.0.so.0.2800.8
+359fb16000-359fb17000 rwxp 00000000 00:00 0 
+359fc00000-359fc1d000 r-xp 00000000 fd:00 131255                         /lib64/libselinux.so.1
+359fc1d000-359fe1c000 ---p 0001d000 fd:00 131255                         /lib64/libselinux.so.1
+359fe1c000-359fe1d000 r-xp 0001c000 fd:00 131255                         /lib64/libselinux.so.1
+359fe1d000-359fe1e000 rwxp 0001d000 fd:00 131255                         /lib64/libselinux.so.1
+359fe1e000-359fe1f000 rwxp 00000000 00:00 0 
+35a0000000-35a0016000 r-xp 00000000 fd:00 131248                         /lib64/libresolv-2.12.so
+35a0016000-35a0216000 ---p 00016000 fd:00 131248                         /lib64/libresolv-2.12.so
+35a0216000-35a0217000 r-xp 00016000 fd:00 131248                         /lib64/libresolv-2.12.so
+35a0217000-35a0218000 rwxp 00017000 fd:00 131248                         /lib64/libresolv-2.12.so
+35a0218000-35a021a000 rwxp 00000000 00:00 0 
+35a0400000-35a044f000 r-xp 00000000 fd:00 417461                         /usr/lib64/libjasper.so.1.0.0
+35a044f000-35a064f000 ---p 0004f000 fd:00 417461                         /usr/lib64/libjasper.so.1.0.0
+35a064f000-35a0653000 rwxp 0004f000 fd:00 417461                         /usr/lib64/libjasper.so.1.0.0
+35a0653000-35a065a000 rwxp 00000000 00:00 0 
+35a0c00000-35a0c04000 r-xp 00000000 fd:00 131238                         /lib64/libgthread-2.0.so.0.2800.8
+35a0c04000-35a0e03000 ---p 00004000 fd:00 131238                         /lib64/libgthread-2.0.so.0.2800.8
+35a0e03000-35a0e04000 rwxp 00003000 fd:00 131238                         /lib64/libgthread-2.0.so.0.2800.8
+35a1800000-35a1937000 r-xp 00000000 fd:00 425657                         /usr/lib64/libX11.so.6.3.0
+35a1937000-35a1b37000 ---p 00137000 fd:00 425657                         /usr/lib64/libX11.so.6.3.0
+35a1b37000-35a1b3d000 rwxp 00137000 fd:00 425657                         /usr/lib64/libX11.so.6.3.0
+35a1c00000-35a1c24000 r-xp 00000000 fd:00 425646                         /usr/lib64/libxcb.so.1.1.0
+35a1c24000-35a1e24000 ---p 00024000 fd:00 425646                         /usr/lib64/libxcb.so.1.1.0
+35a1e24000-35a1e25000 rwxp 00024000 fd:00 425646                         /usr/lib64/libxcb.so.1.1.0
+35a2000000-35a2002000 r-xp 00000000 fd:00 425645                         /usr/lib64/libXau.so.6.0.0
+35a2002000-35a2202000 ---p 00002000 fd:00 425645                         /usr/lib64/libXau.so.6.0.0
+35a2202000-35a2203000 rwxp 00002000 fd:00 425645                         /usr/lib64/libXau.so.6.0.0
+35a2800000-35a2811000 r-xp 00000000 fd:00 425700                         /usr/lib64/libXext.so.6.4.0
+35a2811000-35a2a11000 ---p 00011000 fd:00 425700                         /usr/lib64/libXext.so.6.4.0
+35a2a11000-35a2a12000 rwxp 00011000 fd:00 425700                         /usr/lib64/libXext.so.6.4.0
+35a2c00000-35a2c25000 r-xp 00000000 fd:00 425639                         /usr/lib64/libpng12.so.0.49.0
+35a2c25000-35a2e25000 ---p 00025000 fd:00 425639                         /usr/lib64/libpng12.so.0.49.0
+35a2e25000-35a2e26000 rwxp 00025000 fd:00 425639                         /usr/lib64/libpng12.so.0.49.0
+35a3000000-35a3009000 r-xp 00000000 fd:00 425662                         /usr/lib64/libXrender.so.1.3.0
+35a3009000-35a3208000 ---p 00009000 fd:00 425662                         /usr/lib64/libXrender.so.1.3.0
+35a3208000-35a3209000 rwxp 00008000 fd:00 425662                         /usr/lib64/libXrender.so.1.3.0
+35a3400000-35a340f000 r-xp 00000000 fd:00 425774                         /usr/lib64/libXi.so.6.1.0
+35a340f000-35a360e000 ---p 0000f000 fd:00 425774                         /usr/lib64/libXi.so.6.1.0
+35a360e000-35a360f000 rwxp 0000e000 fd:00 425774                         /usr/lib64/libXi.so.6.1.0
+35a3c00000-35a3c34000 r-xp 00000000 fd:00 425269                         /usr/lib64/libfontconfig.so.1.4.4
+35a3c34000-35a3e34000 ---p 00034000 fd:00 425269                         /usr/lib64/libfontconfig.so.1.4.4
+35a3e34000-35a3e36000 rwxp 00034000 fd:00 425269                         /usr/lib64/libfontconfig.so.1.4.4
+35a4400000-35a4405000 r-xp 00000000 fd:00 425972                         /usr/lib64/libXfixes.so.3.1.0
+35a4405000-35a4604000 ---p 00005000 fd:00 425972                         /usr/lib64/libXfixes.so.3.1.0
+35a4604000-35a4605000 rwxp 00004000 fd:00 425972                         /usr/lib64/libXfixes.so.3.1.0
+35a4800000-35a480a000 r-xp 00000000 fd:00 425779                         /usr/lib64/libXrandr.so.2.2.0
+35a480a000-35a4a09000 ---p 0000a000 fd:00 425779                         /usr/lib64/libXrandr.so.2.2.0
+35a4a09000-35a4a0a000 rwxp 00009000 fd:00 425779                         /usr/lib64/libXrandr.so.2.2.0
+35a4c00000-35a4c02000 r-xp 00000000 fd:00 425984                         /usr/lib64/libXdamage.so.1.1.0
+35a4c02000-35a4e01000 ---p 00002000 fd:00 425984                         /usr/lib64/libXdamage.so.1.1.0
+35a4e01000-35a4e02000 rwxp 00001000 fd:00 425984                         /usr/lib64/libXdamage.so.1.1.0
+35a5800000-35a5809000 r-xp 00000000 fd:00 425974                         /usr/lib64/libXcursor.so.1.0.2
+35a5809000-35a5a09000 ---p 00009000 fd:00 425974                         /usr/lib64/libXcursor.so.1.0.2
+35a5a09000-35a5a0a000 rwxp 00009000 fd:00 425974                         /usr/lib64/libXcursor.so.1.0.2
+35a5c00000-35a5d49000 r-xp 00000000 fd:00 426712                         /usr/lib64/libxml2.so.2.7.6
+35a5d49000-35a5f48000 ---p 00149000 fd:00 426712                         /usr/lib64/libxml2.so.2.7.6
+35a5f48000-35a5f52000 rwxp 00148000 fd:00 426712                         /usr/lib64/libxml2.so.2.7.6
+35a5f52000-35a5f53000 rwxp 00000000 00:00 0 
+35a6400000-35a6402000 r-xp 00000000 fd:00 425772                         /usr/lib64/libXinerama.so.1.0.0
+35a6402000-35a6601000 ---p 00002000 fd:00 425772                         /usr/lib64/libXinerama.so.1.0.0
+35a6601000-35a6602000 rwxp 00001000 fd:00 425772                         /usr/lib64/libXinerama.so.1.0.0
+35a8400000-35a8402000 r-xp 00000000 fd:00 425976                         /usr/lib64/libXcomposite.so.1.0.0
+35a8402000-35a8601000 ---p 00002000 fd:00 425976                         /usr/lib64/libXcomposite.so.1.0.0
+35a8601000-35a8602000 rwxp 00001000 fd:00 425976                         /usr/lib64/libXcomposite.so.1.0.0
+35a9400000-35a9404000 r-xp 00000000 fd:00 131258                         /lib64/libuuid.so.1.3.0
+35a9404000-35a9603000 ---p 00004000 fd:00 131258                         /lib64/libuuid.so.1.3.0
+35a9603000-35a9604000 rwxp 00003000 fd:00 131258                         /lib64/libuuid.so.1.3.0
+35a9c00000-35a9c22000 r-xp 00000000 fd:00 131337                         /lib64/libncurses.so.5.7
+35a9c22000-35a9e21000 ---p 00022000 fd:00 131337                         /lib64/libncurses.so.5.7
+35a9e21000-35a9e22000 rwxp 00021000 fd:00 131337                         /lib64/libncurses.so.5.7
+35aa000000-35aa002000 r-xp 00000000 fd:00 131299                         /lib64/libfreebl3.so
+35aa002000-35aa201000 ---p 00002000 fd:00 131299                         /lib64/libfreebl3.so
+35aa201000-35aa202000 r-xp 00001000 fd:00 131299                         /lib64/libfreebl3.so
+35aa202000-35aa203000 rwxp 00002000 fd:00 131299                         /lib64/libfreebl3.so
+35aa400000-35aa462000 r-xp 00000000 fd:00 395723                         /usr/lib64/libtiff.so.3.9.4
+35aa462000-35aa662000 ---p 00062000 fd:00 395723                         /usr/lib64/libtiff.so.3.9.4
+35aa662000-35aa665000 rwxp 00062000 fd:00 395723                         /usr/lib64/libtiff.so.3.9.4
+35aac00000-35aac03000 r-xp 00000000 fd:00 131317                         /lib64/libcom_err.so.2.1
+35aac03000-35aae02000 ---p 00003000 fd:00 131317                         /lib64/libcom_err.so.2.1
+35aae02000-35aae03000 r-xp 00002000 fd:00 131317                         /lib64/libcom_err.so.2.1
+35aae03000-35aae04000 rwxp 00003000 fd:00 131317                         /lib64/libcom_err.so.2.1
+35ab800000-35ab807000 r-xp 00000000 fd:00 426684                         /usr/lib64/libSM.so.6.0.1
+35ab807000-35aba07000 ---p 00007000 fd:00 426684                         /usr/lib64/libSM.so.6.0.1
+35aba07000-35aba08000 rwxp 00007000 fd:00 426684                         /usr/lib64/libSM.so.6.0.1
+35ac000000-35ac017000 r-xp 00000000 fd:00 393072                         /usr/lib64/libICE.so.6.3.0
+35ac017000-35ac217000 ---p 00017000 fd:00 393072                         /usr/lib64/libICE.so.6.3.0
+35ac217000-35ac218000 rwxp 00017000 fd:00 393072                         /usr/lib64/libICE.so.6.3.0
+35ac218000-35ac21c000 rwxp 00000000 00:00 0 
+35ac400000-35ac4dc000 r-xp 00000000 fd:00 131318                         /lib64/libkrb5.so.3.3
+35ac4dc000-35ac6db000 ---p 000dc000 fd:00 131318                         /lib64/libkrb5.so.3.3
+35ac6db000-35ac6e5000 r-xp 000db000 fd:00 131318                         /lib64/libkrb5.so.3.3
+35ac6e5000-35ac6e7000 rwxp 000e5000 fd:00 131318                         /lib64/libkrb5.so.3.3
+35ac800000-35ac802000 r-xp 00000000 fd:00 131310                         /lib64/libkeyutils.so.1.3
+35ac802000-35aca01000 ---p 00002000 fd:00 131310                         /lib64/libkeyutils.so.1.3
+35aca01000-35aca02000 r-xp 00001000 fd:00 131310                         /lib64/libkeyutils.so.1.3
+35aca02000-35aca03000 rwxp 00002000 fd:00 131310                         /lib64/libkeyutils.so.1.3
+35acc00000-35acc0a000 r-xp 00000000 fd:00 131311                         /lib64/libkrb5support.so.0.1
+35acc0a000-35ace09000 ---p 0000a000 fd:00 131311                         /lib64/libkrb5support.so.0.1
+35ace09000-35ace0a000 r-xp 00009000 fd:00 131311                         /lib64/libkrb5support.so.0.1
+35ace0a000-35ace0b000 rwxp 0000a000 fd:00 131311                         /lib64/libkrb5support.so.0.1
+35ad000000-35ad001000 r-xp 00000000 fd:00 427584                         /usr/lib64/libX11-xcb.so.1.0.0
+35ad001000-35ad200000 ---p 00001000 fd:00 427584                         /usr/lib64/libX11-xcb.so.1.0.0
+35ad200000-35ad201000 rwxp 00000000 fd:00 427584                         /usr/lib64/libX11-xcb.so.1.0.0
+35ad400000-35ad441000 r-xp 00000000 fd:00 131325                         /lib64/libgssapi_krb5.so.2.2
+35ad441000-35ad641000 ---p 00041000 fd:00 131325                         /lib64/libgssapi_krb5.so.2.2
+35ad641000-35ad642000 r-xp 00041000 fd:00 131325                         /lib64/libgssapi_krb5.so.2.2
+35ad642000-35ad644000 rwxp 00042000 fd:00 131325                         /lib64/libgssapi_krb5.so.2.2
+35ad800000-35ad804000 r-xp 00000000 fd:00 417313                         /usr/lib64/libXxf86vm.so.1.0.0
+35ad804000-35ada04000 ---p 00004000 fd:00 417313                         /usr/lib64/libXxf86vm.so.1.0.0
+35ada04000-35ada05000 rwxp 00004000 fd:00 417313                         /usr/lib64/libXxf86vm.so.1.0.0
+35adc00000-35adc29000 r-xp 00000000 fd:00 131312                         /lib64/libk5crypto.so.3.1
+35adc29000-35ade29000 ---p 00029000 fd:00 131312                         /lib64/libk5crypto.so.3.1
+35ade29000-35ade2a000 r-xp 00029000 fd:00 131312                         /lib64/libk5crypto.so.3.1
+35ade2a000-35ade2b000 rwxp 0002a000 fd:00 131312                         /lib64/libk5crypto.so.3.1
+35ade2b000-35ade2c000 rwxp 00000000 00:00 0 
+35ae400000-35ae429000 r-xp 00000000 fd:00 402708                         /usr/lib64/libglapi.so.0.0.0
+35ae429000-35ae629000 ---p 00029000 fd:00 402708                         /usr/lib64/libglapi.so.0.0.0
+35ae629000-35ae62d000 rwxp 00029000 fd:00 402708                         /usr/lib64/libglapi.so.0.0.0
+35ae62d000-35ae62e000 rwxp 00000000 00:00 0 
+35af000000-35af03f000 r-xp 00000000 fd:00 399044                         /usr/lib64/libjpeg.so.62.0.0
+35af03f000-35af23f000 ---p 0003f000 fd:00 399044                         /usr/lib64/libjpeg.so.62.0.0
+35af23f000-35af240000 rwxp 0003f000 fd:00 399044                         /usr/lib64/libjpeg.so.62.0.0
+35af240000-35af250000 rwxp 00000000 00:00 0 
+35af400000-35af472000 r-xp 00000000 fd:00 131334                         /lib64/libgcrypt.so.11.5.3
+35af472000-35af671000 ---p 00072000 fd:00 131334                         /lib64/libgcrypt.so.11.5.3
+35af671000-35af672000 r-xp 00071000 fd:00 131334                         /lib64/libgcrypt.so.11.5.3
+35af672000-35af675000 rwxp 00072000 fd:00 131334                         /lib64/libgcrypt.so.11.5.3
+35af800000-35af88b000 r-xp 00000000 fd:00 426605                         /usr/lib64/libsqlite3.so.0.8.6
+35af88b000-35afa8b000 ---p 0008b000 fd:00 426605                         /usr/lib64/libsqlite3.so.0.8.6
+35afa8b000-35afa8e000 rwxp 0008b000 fd:00 426605                         /usr/lib64/libsqlite3.so.0.8.6
+35afa8e000-35afa8f000 rwxp 00000000 00:00 0 
+35afc00000-35afc0b000 r-xp 00000000 fd:00 427011                         /usr/lib64/libavahi-common.so.3.5.1
+35afc0b000-35afe0b000 ---p 0000b000 fd:00 427011                         /usr/lib64/libavahi-common.so.3.5.1
+35afe0b000-35afe0c000 rwxp 0000b000 fd:00 427011                         /usr/lib64/libavahi-common.so.3.5.1
+35b0000000-35b0003000 r-xp 00000000 fd:00 427588                         /usr/lib64/libxcb-dri2.so.0.0.0
+35b0003000-35b0203000 ---p 00003000 fd:00 427588                         /usr/lib64/libxcb-dri2.so.0.0.0
+35b0203000-35b0204000 rwxp 00003000 fd:00 427588                         /usr/lib64/libxcb-dri2.so.0.0.0
+35b0400000-35b0486000 r-xp 00000000 fd:00 427590                         /usr/lib64/libGL.so.1.2.0
+35b0486000-35b0685000 ---p 00086000 fd:00 427590                         /usr/lib64/libGL.so.1.2.0
+35b0685000-35b0688000 rwxp 00085000 fd:00 427590                         /usr/lib64/libGL.so.1.2.0
+35b0688000-35b0689000 rwxp 00000000 00:00 0 
+35b0800000-35b080d000 r-xp 00000000 fd:00 427589                         /usr/lib64/libdrm.so.2.4.0
+35b080d000-35b0a0c000 ---p 0000d000 fd:00 427589                         /usr/lib64/libdrm.so.2.4.0
+35b0a0c000-35b0a0d000 rwxp 0000c000 fd:00 427589                         /usr/lib64/libdrm.so.2.4.0
+35b0c00000-35b0c17000 r-xp 00000000 fd:00 427587                         /usr/lib64/libxcb-glx.so.0.0.0
+35b0c17000-35b0e16000 ---p 00017000 fd:00 427587                         /usr/lib64/libxcb-glx.so.0.0.0
+35b0e16000-35b0e18000 rwxp 00016000 fd:00 427587                         /usr/lib64/libxcb-glx.so.0.0.0
+7fbc05bfb000-7fbc05bfc000 ---p 00000000 00:00 0 
+7fbc05bfc000-7fbc065fc000 rwxp 00000000 00:00 0 
+7fbc065fc000-7fbc06618000 r-xp 00000000 00:14 10502959                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/INFOT_Synopsys.ttf
+7fbc06618000-7fbc06621000 r-xp 00000000 00:14 10436096                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/iconengines/libqsvgicon.so
+7fbc06621000-7fbc06820000 ---p 00009000 00:14 10436096                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/iconengines/libqsvgicon.so
+7fbc06820000-7fbc06821000 rwxp 00008000 00:14 10436096                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/iconengines/libqsvgicon.so
+7fbc06821000-7fbc06822000 ---p 00000000 00:00 0 
+7fbc06822000-7fbc07222000 rwxp 00000000 00:00 0 
+7fbc07222000-7fbc07224000 r-xp 00000000 fd:00 131326                     /lib64/libutil-2.12.so
+7fbc07224000-7fbc07423000 ---p 00002000 fd:00 131326                     /lib64/libutil-2.12.so
+7fbc07423000-7fbc07424000 r-xp 00001000 fd:00 131326                     /lib64/libutil-2.12.so
+7fbc07424000-7fbc07425000 rwxp 00002000 fd:00 131326                     /lib64/libutil-2.12.so
+7fbc07425000-7fbc075b6000 r-xp 00000000 00:14 2098341                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/Python/2.6.2/lib/libpython2.6.so.1.0
+7fbc075b6000-7fbc077b6000 ---p 00191000 00:14 2098341                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/Python/2.6.2/lib/libpython2.6.so.1.0
+7fbc077b6000-7fbc077f1000 rwxp 00191000 00:14 2098341                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/Python/2.6.2/lib/libpython2.6.so.1.0
+7fbc077f1000-7fbc077ff000 rwxp 00000000 00:00 0 
+7fbc077ff000-7fbc07a25000 r-xp 00000000 00:14 9950793                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/tclpy/PY2.6.2/tclpy.so
+7fbc07a25000-7fbc07c25000 ---p 00226000 00:14 9950793                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/tclpy/PY2.6.2/tclpy.so
+7fbc07c25000-7fbc07c35000 rwxp 00226000 00:14 9950793                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/tclpy/PY2.6.2/tclpy.so
+7fbc07c35000-7fbc07c36000 rwxp 00000000 00:00 0 
+7fbc07c36000-7fbc07c59000 r-xp 00000000 fd:00 396013                     /usr/share/fonts/liberation/LiberationSans-Bold.ttf
+7fbc07c59000-7fbc07ca3000 r-xp 00000000 fd:00 131240                     /lib64/libgobject-2.0.so.0.2800.8
+7fbc07ca3000-7fbc07ea2000 ---p 0004a000 fd:00 131240                     /lib64/libgobject-2.0.so.0.2800.8
+7fbc07ea2000-7fbc07ea4000 rwxp 00049000 fd:00 131240                     /lib64/libgobject-2.0.so.0.2800.8
+7fbc07ea4000-7fbc07ea5000 rwxp 00000000 00:00 0 
+7fbc07ea5000-7fbc07eaa000 r-xp 00000000 fd:00 130421                     /lib64/libnss_dns-2.12.so
+7fbc07eaa000-7fbc080a9000 ---p 00005000 fd:00 130421                     /lib64/libnss_dns-2.12.so
+7fbc080a9000-7fbc080aa000 r-xp 00004000 fd:00 130421                     /lib64/libnss_dns-2.12.so
+7fbc080aa000-7fbc080ab000 rwxp 00005000 fd:00 130421                     /lib64/libnss_dns-2.12.so
+7fbc080bb000-7fbc080c2000 r-xs 00000000 fd:00 401330                     /usr/lib64/gconv/gconv-modules.cache
+7fbc080c2000-7fbc080fc000 r-xp 00000000 00:14 7160245                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/DejaVuLGCSansMono.ttf
+7fbc080fc000-7fbc091ef000 rwxs 00000000 00:04 27164686                   /SYSV85fe7ed0 (deleted)
+7fbc091ef000-7fbc091ff000 r-xp 00000000 fd:00 417357                     /usr/lib64/libtasn1.so.3.1.6
+7fbc091ff000-7fbc093fe000 ---p 00010000 fd:00 417357                     /usr/lib64/libtasn1.so.3.1.6
+7fbc093fe000-7fbc093ff000 rwxp 0000f000 fd:00 417357                     /usr/lib64/libtasn1.so.3.1.6
+7fbc093ff000-7fbc09402000 r-xp 00000000 fd:00 131333                     /lib64/libgpg-error.so.0.5.0
+7fbc09402000-7fbc09601000 ---p 00003000 fd:00 131333                     /lib64/libgpg-error.so.0.5.0
+7fbc09601000-7fbc09602000 r-xp 00002000 fd:00 131333                     /lib64/libgpg-error.so.0.5.0
+7fbc09602000-7fbc09603000 rwxp 00003000 fd:00 131333                     /lib64/libgpg-error.so.0.5.0
+7fbc09603000-7fbc096ac000 r-xp 00000000 fd:00 427562                     /usr/lib64/libgnutls.so.26.22.6
+7fbc096ac000-7fbc098ac000 ---p 000a9000 fd:00 427562                     /usr/lib64/libgnutls.so.26.22.6
+7fbc098ac000-7fbc098b3000 rwxp 000a9000 fd:00 427562                     /usr/lib64/libgnutls.so.26.22.6
+7fbc098c3000-7fbc09930000 r-xp 00000000 00:14 10502953                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/DejaVuLGCSans.ttf
+7fbc09930000-7fbc0994a000 r-xp 00000000 00:14 11073229                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/tcl-dp/lib/libdp42.so
+7fbc0994a000-7fbc09b49000 ---p 0001a000 00:14 11073229                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/tcl-dp/lib/libdp42.so
+7fbc09b49000-7fbc09b4b000 rwxp 00019000 00:14 11073229                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/tcl-dp/lib/libdp42.so
+7fbc09b4c000-7fbc09b5e000 r-xp 00000000 00:14 10502948                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/COUR.ttf
+7fbc09b5e000-7fbc09b6d000 r-xp 00000000 00:14 10502960                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/INFOL___.TTF
+7fbc09b6d000-7fbc09b89000 r-xp 00000000 00:14 10502959                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/INFOT_Synopsys.ttf
+7fbc09b89000-7fbc09ba1000 r-xp 00000000 00:14 10502951                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/AM196___.TTF
+7fbc09ba1000-7fbc09bd3000 r-xp 00000000 00:14 10502958                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/TNR_WG__.ttf
+7fbc09bd3000-7fbc09bdf000 r-xp 00000000 00:14 7160247                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/td______.pfb
+7fbc09bdf000-7fbc09bf0000 r-xp 00000000 00:14 10502952                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/OLDENG.TTF
+7fbc09bf0000-7fbc09bfb000 r-xp 00000000 00:14 10502950                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/fonts/lc______.ttf
+7fbc09bfb000-7fbc09bfe000 r-xs 00000000 fd:00 913346                     /var/cache/fontconfig/87f5e051180a7a75f16eb6fe7dbd3749-le64.cache-3
+7fbc09bfe000-7fbc09c07000 r-xs 00000000 fd:00 928597                     /var/cache/fontconfig/b79f3aaa7d385a141ab53ec885cc22a8-le64.cache-3
+7fbc09c07000-7fbc09c0a000 r-xs 00000000 fd:00 923899                     /var/cache/fontconfig/0b1bcc92b4d25cc154d77dafe3bceaa0-le64.cache-3
+7fbc09c0a000-7fbc09c0c000 r-xs 00000000 fd:00 923910                     /var/cache/fontconfig/2e1514a9fdd499050989183bb65136db-le64.cache-3
+7fbc09c0c000-7fbc09c0f000 r-xs 00000000 fd:00 923913                     /var/cache/fontconfig/5c755b2f27115486aa6359c84dd3cbda-le64.cache-3
+7fbc09c0f000-7fbc09c10000 r-xs 00000000 fd:00 923908                     /var/cache/fontconfig/b966c23d19cce9e9a98d55765cf2a0c7-le64.cache-3
+7fbc09c10000-7fbc09c12000 r-xs 00000000 fd:00 923903                     /var/cache/fontconfig/3f821257dd33660ba7bbb45c32deb84c-le64.cache-3
+7fbc09c12000-7fbc09c14000 r-xs 00000000 fd:00 923915                     /var/cache/fontconfig/830f035fa84a65ce80e050178dbb630d-le64.cache-3
+7fbc09c14000-7fbc09c15000 r-xs 00000000 fd:00 923897                     /var/cache/fontconfig/81a173283b451552b599cfaafd6236bd-le64.cache-3
+7fbc09c15000-7fbc09c16000 r-xs 00000000 fd:00 923907                     /var/cache/fontconfig/ac68f755438cc3dc5a526084839fc7ca-le64.cache-3
+7fbc09c16000-7fbc09c17000 r-xs 00000000 fd:00 923911                     /var/cache/fontconfig/6cfc7d49b27ba7d3eb71ab86e04def2c-le64.cache-3
+7fbc09c17000-7fbc09c18000 r-xs 00000000 fd:00 919535                     /var/cache/fontconfig/6fcb01a03a016cc71057b587cdea6709-le64.cache-3
+7fbc09c18000-7fbc09c19000 r-xs 00000000 fd:00 923917                     /var/cache/fontconfig/46d51d90fe9d963f6f4186edb936a931-le64.cache-3
+7fbc09c19000-7fbc09c1a000 r-xs 00000000 fd:00 923916                     /var/cache/fontconfig/b887eea8f1b96e1d899b44ed6681fc27-le64.cache-3
+7fbc09c1a000-7fbc09c1b000 r-xs 00000000 fd:00 923914                     /var/cache/fontconfig/860639f272b8b4b3094f9e399e41bccd-le64.cache-3
+7fbc09c1b000-7fbc09c1c000 r-xs 00000000 fd:00 923912                     /var/cache/fontconfig/211368abcb0ff835c229ff05c9ec01dc-le64.cache-3
+7fbc09c1c000-7fbc09c1d000 r-xs 00000000 fd:00 923918                     /var/cache/fontconfig/c46020d7221988a13df853d2b46304fc-le64.cache-3
+7fbc09c1d000-7fbc09c1e000 r-xs 00000000 fd:00 923905                     /var/cache/fontconfig/df893b4576ad6107f9397134092c4059-le64.cache-3
+7fbc09c1e000-7fbc09c1f000 r-xs 00000000 fd:00 913333                     /var/cache/fontconfig/900402270e15d763a6e008bb2d4c7686-le64.cache-3
+7fbc09c1f000-7fbc09c20000 r-xs 00000000 fd:00 923909                     /var/cache/fontconfig/47f48679023f44a4d1e44699a69464f6-le64.cache-3
+7fbc09c20000-7fbc09c21000 r-xs 00000000 fd:00 923901                     /var/cache/fontconfig/2881ed3fd21ca306ddad6f9b0dd3189f-le64.cache-3
+7fbc09c21000-7fbc09c22000 r-xs 00000000 fd:00 923900                     /var/cache/fontconfig/3c3fb04d32a5211b073874b125d29701-le64.cache-3
+7fbc09c22000-7fbc09c23000 r-xs 00000000 fd:00 923902                     /var/cache/fontconfig/e61abf8156cc476151baa07d67337cae-le64.cache-3
+7fbc09c23000-7fbc09c27000 r-xs 00000000 fd:00 913329                     /var/cache/fontconfig/b67b32625a2bb51b023d3814a918f351-le64.cache-3
+7fbc09c27000-7fbc09c28000 ---p 00000000 00:00 0 
+7fbc09c28000-7fbc0a628000 rwxp 00000000 00:00 0 
+7fbc0a628000-7fbc0a63a000 r-xp 00000000 00:14 7522442                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclEngine.so
+7fbc0a63a000-7fbc0a83a000 ---p 00012000 00:14 7522442                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclEngine.so
+7fbc0a83a000-7fbc0a83b000 rwxp 00012000 00:14 7522442                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclEngine.so
+7fbc0a83b000-7fbc0a912000 r-xp 00000000 00:14 3194883                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/platform/lib/librq_plugin.so
+7fbc0a912000-7fbc0ab11000 ---p 000d7000 00:14 3194883                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/platform/lib/librq_plugin.so
+7fbc0ab11000-7fbc0ab17000 rwxp 000d6000 00:14 3194883                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/platform/lib/librq_plugin.so
+7fbc0ab17000-7fbc0ab74000 r-xp 00000000 00:14 3194879                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/platform/lib/libpcell_caching.so
+7fbc0ab74000-7fbc0ad74000 ---p 0005d000 00:14 3194879                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/platform/lib/libpcell_caching.so
+7fbc0ad74000-7fbc0ad78000 rwxp 0005d000 00:14 3194879                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/platform/lib/libpcell_caching.so
+7fbc0ad78000-7fbc0adad000 r-xp 00000000 00:14 7522437                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/libsnpsLibDef.so
+7fbc0adad000-7fbc0afad000 ---p 00035000 00:14 7522437                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/libsnpsLibDef.so
+7fbc0afad000-7fbc0afaf000 rwxp 00035000 00:14 7522437                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/libsnpsLibDef.so
+7fbc0afaf000-7fbc0afb0000 ---p 00000000 00:00 0 
+7fbc0afb0000-7fbc0afc8000 rwxp 00000000 00:00 0 
+7fbc0afc8000-7fbc0afd1000 r-xp 00000000 00:14 11340900                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaNativeLock.so
+7fbc0afd1000-7fbc0b1d1000 ---p 00009000 00:14 11340900                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaNativeLock.so
+7fbc0b1d1000-7fbc0b1d2000 rwxp 00009000 00:14 11340900                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaNativeLock.so
+7fbc0b1d2000-7fbc0b22e000 r-xp 00000000 00:14 11693515                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqwebp.so
+7fbc0b22e000-7fbc0b42e000 ---p 0005c000 00:14 11693515                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqwebp.so
+7fbc0b42e000-7fbc0b430000 rwxp 0005c000 00:14 11693515                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqwebp.so
+7fbc0b430000-7fbc0b431000 rwxp 00000000 00:00 0 
+7fbc0b431000-7fbc0b436000 r-xp 00000000 00:14 11693518                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqwbmp.so
+7fbc0b436000-7fbc0b635000 ---p 00005000 00:14 11693518                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqwbmp.so
+7fbc0b635000-7fbc0b636000 rwxp 00004000 00:14 11693518                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqwbmp.so
+7fbc0b636000-7fbc0b63d000 r-xp 00000000 00:14 11693523                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqtiff.so
+7fbc0b63d000-7fbc0b83d000 ---p 00007000 00:14 11693523                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqtiff.so
+7fbc0b83d000-7fbc0b83e000 rwxp 00007000 00:14 11693523                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqtiff.so
+7fbc0b83e000-7fbc0b843000 r-xp 00000000 00:14 11693522                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqtga.so
+7fbc0b843000-7fbc0ba42000 ---p 00005000 00:14 11693522                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqtga.so
+7fbc0ba42000-7fbc0ba43000 rwxp 00004000 00:14 11693522                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqtga.so
+7fbc0ba43000-7fbc0ba48000 r-xp 00000000 00:14 11693521                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqsvg.so
+7fbc0ba48000-7fbc0bc48000 ---p 00005000 00:14 11693521                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqsvg.so
+7fbc0bc48000-7fbc0bc49000 rwxp 00005000 00:14 11693521                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqsvg.so
+7fbc0bc49000-7fbc0bc7e000 r-xp 00000000 fd:00 401872                     /usr/lib64/liblcms.so.1.0.19
+7fbc0bc7e000-7fbc0be7e000 ---p 00035000 fd:00 401872                     /usr/lib64/liblcms.so.1.0.19
+7fbc0be7e000-7fbc0be80000 rwxp 00035000 fd:00 401872                     /usr/lib64/liblcms.so.1.0.19
+7fbc0be80000-7fbc0be82000 rwxp 00000000 00:00 0 
+7fbc0be82000-7fbc0bef1000 r-xp 00000000 fd:00 396062                     /usr/lib64/libmng.so.1.0.0
+7fbc0bef1000-7fbc0c0f0000 ---p 0006f000 fd:00 396062                     /usr/lib64/libmng.so.1.0.0
+7fbc0c0f0000-7fbc0c0f5000 rwxp 0006e000 fd:00 396062                     /usr/lib64/libmng.so.1.0.0
+7fbc0c0f5000-7fbc0c0fb000 r-xp 00000000 00:14 11693519                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqmng.so
+7fbc0c0fb000-7fbc0c2fa000 ---p 00006000 00:14 11693519                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqmng.so
+7fbc0c2fa000-7fbc0c2fb000 rwxp 00005000 00:14 11693519                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqmng.so
+7fbc0c2fb000-7fbc0c33b000 r-xp 00000000 00:14 11693524                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqjpeg.so
+7fbc0c33b000-7fbc0c53b000 ---p 00040000 00:14 11693524                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqjpeg.so
+7fbc0c53b000-7fbc0c53c000 rwxp 00040000 00:14 11693524                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqjpeg.so
+7fbc0c53c000-7fbc0c544000 r-xp 00000000 00:14 11693525                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqjp2.so
+7fbc0c544000-7fbc0c743000 ---p 00008000 00:14 11693525                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqjp2.so
+7fbc0c743000-7fbc0c744000 rwxp 00007000 00:14 11693525                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqjp2.so
+7fbc0c744000-7fbc0c74b000 r-xp 00000000 00:14 11693517                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqico.so
+7fbc0c74b000-7fbc0c94a000 ---p 00007000 00:14 11693517                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqico.so
+7fbc0c94a000-7fbc0c94b000 rwxp 00006000 00:14 11693517                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqico.so
+7fbc0c94b000-7fbc0c954000 r-xp 00000000 00:14 11693526                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqicns.so
+7fbc0c954000-7fbc0cb53000 ---p 00009000 00:14 11693526                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqicns.so
+7fbc0cb53000-7fbc0cb54000 rwxp 00008000 00:14 11693526                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqicns.so
+7fbc0cb54000-7fbc0cb5a000 r-xp 00000000 00:14 11693516                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqgif.so
+7fbc0cb5a000-7fbc0cd5a000 ---p 00006000 00:14 11693516                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqgif.so
+7fbc0cd5a000-7fbc0cd5b000 rwxp 00006000 00:14 11693516                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqgif.so
+7fbc0cd5b000-7fbc0cd66000 r-xp 00000000 00:14 11693520                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqdds.so
+7fbc0cd66000-7fbc0cf65000 ---p 0000b000 00:14 11693520                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqdds.so
+7fbc0cf65000-7fbc0cf66000 rwxp 0000a000 00:14 11693520                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/imageformats/libqdds.so
+7fbc0cf66000-7fbc0d325000 r-xp 00000000 00:14 2196270                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/auxx/images/images.rcc
+7fbc0d325000-7fbc0d367000 r-xp 00000000 00:14 11693528                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7fbc0d367000-7fbc0d567000 ---p 00042000 00:14 11693528                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7fbc0d567000-7fbc0d569000 rwxp 00042000 00:14 11693528                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+7fbc0d569000-7fbc0d56a000 ---p 00000000 00:00 0 
+7fbc0d56a000-7fbc0df6a000 rwxp 00000000 00:00 0 
+7fbc0df6a000-7fbc0e073000 r-xp 00000000 00:14 5791068                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5XcbQpa.so.5.6.2
+7fbc0e073000-7fbc0e272000 ---p 00109000 00:14 5791068                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5XcbQpa.so.5.6.2
+7fbc0e272000-7fbc0e27c000 rwxp 00108000 00:14 5791068                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5XcbQpa.so.5.6.2
+7fbc0e27c000-7fbc0e27e000 r-xp 00000000 00:14 11693533                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/platforms/libqxcb.so
+7fbc0e27e000-7fbc0e47e000 ---p 00002000 00:14 11693533                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/platforms/libqxcb.so
+7fbc0e47e000-7fbc0e47f000 rwxp 00002000 00:14 11693533                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/plugins/platforms/libqxcb.so
+7fbc0e47f000-7fbc14313000 r-xp 00000000 fd:00 417233                     /usr/lib/locale/locale-archive
+7fbc14313000-7fbc14e36000 rwxp 00000000 00:00 0 
+7fbc14e36000-7fbc14e39000 r-xp 00000000 fd:00 260964                     /opt/pbis/lib64/libuuid.so.0.0.0
+7fbc14e39000-7fbc14f38000 ---p 00003000 fd:00 260964                     /opt/pbis/lib64/libuuid.so.0.0.0
+7fbc14f38000-7fbc14f39000 rwxp 00002000 fd:00 260964                     /opt/pbis/lib64/libuuid.so.0.0.0
+7fbc14f39000-7fbc14fc6000 r-xp 00000000 fd:00 260915                     /opt/pbis/lib64/liblwbase_nothr.so.0.0.0
+7fbc14fc6000-7fbc150c5000 ---p 0008d000 fd:00 260915                     /opt/pbis/lib64/liblwbase_nothr.so.0.0.0
+7fbc150c5000-7fbc150f3000 rwxp 0008c000 fd:00 260915                     /opt/pbis/lib64/liblwbase_nothr.so.0.0.0
+7fbc150f3000-7fbc15119000 r-xp 00000000 fd:00 260899                     /opt/pbis/lib64/liblsacommon.so.0.0.0
+7fbc15119000-7fbc15218000 ---p 00026000 fd:00 260899                     /opt/pbis/lib64/liblsacommon.so.0.0.0
+7fbc15218000-7fbc15224000 rwxp 00025000 fd:00 260899                     /opt/pbis/lib64/liblsacommon.so.0.0.0
+7fbc15224000-7fbc15250000 r-xp 00000000 fd:00 260911                     /opt/pbis/lib64/liblwadvapi_nothr.so.0.0.0
+7fbc15250000-7fbc1534f000 ---p 0002c000 fd:00 260911                     /opt/pbis/lib64/liblwadvapi_nothr.so.0.0.0
+7fbc1534f000-7fbc15358000 rwxp 0002b000 fd:00 260911                     /opt/pbis/lib64/liblwadvapi_nothr.so.0.0.0
+7fbc15358000-7fbc15377000 r-xp 00000000 fd:00 260929                     /opt/pbis/lib64/liblwmsg_nothr.so.0.0.0
+7fbc15377000-7fbc15476000 ---p 0001f000 fd:00 260929                     /opt/pbis/lib64/liblwmsg_nothr.so.0.0.0
+7fbc15476000-7fbc15479000 rwxp 0001e000 fd:00 260929                     /opt/pbis/lib64/liblwmsg_nothr.so.0.0.0
+7fbc15479000-7fbc1547c000 r-xp 00000000 fd:00 260891                     /opt/pbis/lib64/liblsaauth.so.0.0.0
+7fbc1547c000-7fbc1557c000 ---p 00003000 fd:00 260891                     /opt/pbis/lib64/liblsaauth.so.0.0.0
+7fbc1557c000-7fbc1557d000 rwxp 00003000 fd:00 260891                     /opt/pbis/lib64/liblsaauth.so.0.0.0
+7fbc1557d000-7fbc15597000 r-xp 00000000 fd:00 260893                     /opt/pbis/lib64/liblsaclient.so.0.0.0
+7fbc15597000-7fbc15697000 ---p 0001a000 fd:00 260893                     /opt/pbis/lib64/liblsaclient.so.0.0.0
+7fbc15697000-7fbc15698000 rwxp 0001a000 fd:00 260893                     /opt/pbis/lib64/liblsaclient.so.0.0.0
+7fbc15698000-7fbc1569e000 r-xp 00000000 fd:00 130683                     /lib64/libnss_lsass.so.2
+7fbc1569e000-7fbc1579e000 ---p 00006000 fd:00 130683                     /lib64/libnss_lsass.so.2
+7fbc1579e000-7fbc1579f000 rwxp 00006000 fd:00 130683                     /lib64/libnss_lsass.so.2
+7fbc1579f000-7fbc157a5000 r-xp 00000000 fd:00 131056                     /lib64/libnss_winbind.so.2
+7fbc157a5000-7fbc159a4000 ---p 00006000 fd:00 131056                     /lib64/libnss_winbind.so.2
+7fbc159a4000-7fbc159a5000 rwxp 00005000 fd:00 131056                     /lib64/libnss_winbind.so.2
+7fbc159a5000-7fbc159ab000 rwxp 00000000 00:00 0 
+7fbc159ab000-7fbc159b8000 r-xp 00000000 fd:00 130951                     /lib64/libnss_files-2.12.so
+7fbc159b8000-7fbc15bb7000 ---p 0000d000 fd:00 130951                     /lib64/libnss_files-2.12.so
+7fbc15bb7000-7fbc15bb8000 r-xp 0000c000 fd:00 130951                     /lib64/libnss_files-2.12.so
+7fbc15bb8000-7fbc15bb9000 rwxp 0000d000 fd:00 130951                     /lib64/libnss_files-2.12.so
+7fbc15bb9000-7fbc15bba000 r-xs 00000000 fd:00 923898                     /var/cache/fontconfig/991510d2da7f7b2bf8468002aae90060-le64.cache-3
+7fbc15bba000-7fbc15bbc000 r-xs 00000000 fd:00 923906                     /var/cache/fontconfig/d3379abda271c4acd2ad0c01f565d0b0-le64.cache-3
+7fbc15bbc000-7fbc15bbe000 r-xs 00000000 fd:00 913328                     /var/cache/fontconfig/99a1ce9f8b6a0434aadb01d3779b0780-le64.cache-3
+7fbc15bbe000-7fbc15bc0000 r-xs 00000000 fd:00 913327                     /var/cache/fontconfig/f9d379b867d7c69c85310a4f24e5228f-le64.cache-3
+7fbc15bc0000-7fbc15bc9000 r-xs 00000000 fd:00 928602                     /var/cache/fontconfig/12b26b760a24f8b4feb03ad48a333a72-le64.cache-3
+7fbc15bc9000-7fbc15c1b000 rwxp 00000000 00:00 0 
+7fbc15c1b000-7fbc15c41000 r-xp 00000000 00:14 179506                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/PyCellStudio/plat_linux_gcc52_64/lib/libexpat.so.1
+7fbc15c41000-7fbc15e40000 ---p 00026000 00:14 179506                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/PyCellStudio/plat_linux_gcc52_64/lib/libexpat.so.1
+7fbc15e40000-7fbc15e43000 rwxp 00025000 00:14 179506                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/PyCellStudio/plat_linux_gcc52_64/lib/libexpat.so.1
+7fbc15e43000-7fbc15e46000 rwxp 00000000 00:00 0 
+7fbc15e46000-7fbc15fff000 r-xp 00000000 00:14 2946618                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libcrypto.so.1.0.1e
+7fbc15fff000-7fbc161fe000 ---p 001b9000 00:14 2946618                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libcrypto.so.1.0.1e
+7fbc161fe000-7fbc16219000 r-xp 001b8000 00:14 2946618                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libcrypto.so.1.0.1e
+7fbc16219000-7fbc16225000 rwxp 001d3000 00:14 2946618                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libcrypto.so.1.0.1e
+7fbc16225000-7fbc1622a000 rwxp 00000000 00:00 0 
+7fbc1622a000-7fbc1628c000 r-xp 00000000 00:14 2946617                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libssl.so.1.0.1e
+7fbc1628c000-7fbc1648b000 ---p 00062000 00:14 2946617                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libssl.so.1.0.1e
+7fbc1648b000-7fbc1648f000 r-xp 00061000 00:14 2946617                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libssl.so.1.0.1e
+7fbc1648f000-7fbc16496000 rwxp 00065000 00:14 2946617                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libssl.so.1.0.1e
+7fbc16496000-7fbc16497000 rwxp 00000000 00:00 0 
+7fbc16497000-7fbc164b4000 r-xp 00000000 fd:00 131336                     /lib64/libtinfo.so.5.7
+7fbc164b4000-7fbc166b3000 ---p 0001d000 fd:00 131336                     /lib64/libtinfo.so.5.7
+7fbc166b3000-7fbc166b7000 rwxp 0001c000 fd:00 131336                     /lib64/libtinfo.so.5.7
+7fbc166b7000-7fbc166b9000 rwxp 00000000 00:00 0 
+7fbc166b9000-7fbc1679d000 r-xp 00000000 00:14 10953377                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_regex-mt.so.1.59.0
+7fbc1679d000-7fbc1699c000 ---p 000e4000 00:14 10953377                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_regex-mt.so.1.59.0
+7fbc1699c000-7fbc169a2000 rwxp 000e3000 00:14 10953377                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_regex-mt.so.1.59.0
+7fbc169a2000-7fbc169b9000 r-xp 00000000 00:14 2473161                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_filesystem-mt.so.1.59.0
+7fbc169b9000-7fbc16bb9000 ---p 00017000 00:14 2473161                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_filesystem-mt.so.1.59.0
+7fbc16bb9000-7fbc16bba000 rwxp 00017000 00:14 2473161                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_filesystem-mt.so.1.59.0
+7fbc16bba000-7fbc16bbb000 rwxp 00000000 00:00 0 
+7fbc16bbb000-7fbc16bd0000 r-xp 00000000 00:14 2946619                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libgcc_s.so.1
+7fbc16bd0000-7fbc16dd0000 ---p 00015000 00:14 2946619                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libgcc_s.so.1
+7fbc16dd0000-7fbc16dd1000 rwxp 00015000 00:14 2946619                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libgcc_s.so.1
+7fbc16dd1000-7fbc16dd2000 rwxp 00000000 00:00 0 
+7fbc16dd2000-7fbc16df2000 r-xp 00000000 00:14 2946624                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libgomp.so.1.0.0
+7fbc16df2000-7fbc16ff2000 ---p 00020000 00:14 2946624                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libgomp.so.1.0.0
+7fbc16ff2000-7fbc16ff3000 rwxp 00020000 00:14 2946624                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libgomp.so.1.0.0
+7fbc16ff3000-7fbc16ff8000 r-xp 00000000 00:14 9950796                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/tdk/lib/libtbcload-O.so
+7fbc16ff8000-7fbc171f7000 ---p 00005000 00:14 9950796                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/tdk/lib/libtbcload-O.so
+7fbc171f7000-7fbc171f8000 rwxp 00004000 00:14 9950796                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/tdk/lib/libtbcload-O.so
+7fbc171f8000-7fbc171f9000 rwxp 00000000 00:00 0 
+7fbc171f9000-7fbc18a23000 r-xp 00000000 00:14 7483859                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/icu/lib/libicudata.so.54
+7fbc18a23000-7fbc18c22000 ---p 0182a000 00:14 7483859                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/icu/lib/libicudata.so.54
+7fbc18c22000-7fbc18c23000 rwxp 01829000 00:14 7483859                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/icu/lib/libicudata.so.54
+7fbc18c23000-7fbc18dc7000 r-xp 00000000 00:14 10473842                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/icu/lib/libicuuc.so.54
+7fbc18dc7000-7fbc18fc7000 ---p 001a4000 00:14 10473842                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/icu/lib/libicuuc.so.54
+7fbc18fc7000-7fbc18fd8000 rwxp 001a4000 00:14 10473842                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/icu/lib/libicuuc.so.54
+7fbc18fd8000-7fbc18fde000 rwxp 00000000 00:00 0 
+7fbc18fde000-7fbc19250000 r-xp 00000000 00:14 7483863                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/icu/lib/libicui18n.so.54
+7fbc19250000-7fbc19450000 ---p 00272000 00:14 7483863                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/icu/lib/libicui18n.so.54
+7fbc19450000-7fbc19461000 rwxp 00272000 00:14 7483863                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/icu/lib/libicui18n.so.54
+7fbc19461000-7fbc19463000 rwxp 00000000 00:00 0 
+7fbc19463000-7fbc194df000 r-xp 00000000 00:14 2946621                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libfreetype.so.6.3.20
+7fbc194df000-7fbc196de000 ---p 0007c000 00:14 2946621                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libfreetype.so.6.3.20
+7fbc196de000-7fbc196e4000 rwxp 0007b000 00:14 2946621                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libfreetype.so.6.3.20
+7fbc196e4000-7fbc196e7000 rwxp 00000000 00:00 0 
+7fbc196e7000-7fbc19704000 r-xp 00000000 00:14 5791076                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5WebChannel.so.5.6.2
+7fbc19704000-7fbc19904000 ---p 0001d000 00:14 5791076                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5WebChannel.so.5.6.2
+7fbc19904000-7fbc19905000 rwxp 0001d000 00:14 5791076                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5WebChannel.so.5.6.2
+7fbc19905000-7fbc19ccc000 r-xp 00000000 00:14 5791084                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Qml.so.5.6.2
+7fbc19ccc000-7fbc19ecb000 ---p 003c7000 00:14 5791084                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Qml.so.5.6.2
+7fbc19ecb000-7fbc19ee3000 rwxp 003c6000 00:14 5791084                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Qml.so.5.6.2
+7fbc19ee3000-7fbc19ee7000 rwxp 00000000 00:00 0 
+7fbc19ee7000-7fbc19f3c000 r-xp 00000000 00:14 5791080                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5OpenGL.so.5.6.2
+7fbc19f3c000-7fbc1a13b000 ---p 00055000 00:14 5791080                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5OpenGL.so.5.6.2
+7fbc1a13b000-7fbc1a13e000 rwxp 00054000 00:14 5791080                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5OpenGL.so.5.6.2
+7fbc1a13e000-7fbc1a4f2000 r-xp 00000000 00:14 5791073                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Quick.so.5.6.2
+7fbc1a4f2000-7fbc1a6f1000 ---p 003b4000 00:14 5791073                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Quick.so.5.6.2
+7fbc1a6f1000-7fbc1a715000 rwxp 003b3000 00:14 5791073                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Quick.so.5.6.2
+7fbc1a715000-7fbc1a755000 r-xp 00000000 00:14 5791067                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5WebKitWidgets.so.5.5.1
+7fbc1a755000-7fbc1a954000 ---p 00040000 00:14 5791067                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5WebKitWidgets.so.5.5.1
+7fbc1a954000-7fbc1a958000 rwxp 0003f000 00:14 5791067                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5WebKitWidgets.so.5.5.1
+7fbc1a958000-7fbc1a959000 rwxp 00000000 00:00 0 
+7fbc1a959000-7fbc1ca35000 r-xp 00000000 00:14 5222616                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5WebKit.so.5.5.1
+7fbc1ca35000-7fbc1cc35000 ---p 020dc000 00:14 5222616                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5WebKit.so.5.5.1
+7fbc1cc35000-7fbc1cdcb000 rwxp 020dc000 00:14 5222616                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5WebKit.so.5.5.1
+7fbc1cdcb000-7fbc1cdf9000 rwxp 00000000 00:00 0 
+7fbc1cdf9000-7fbc1ce49000 r-xp 00000000 00:14 9313278                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Svg.so.5.6.2
+7fbc1ce49000-7fbc1d049000 ---p 00050000 00:14 9313278                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Svg.so.5.6.2
+7fbc1d049000-7fbc1d04c000 rwxp 00050000 00:14 9313278                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Svg.so.5.6.2
+7fbc1d04c000-7fbc1d07c000 r-xp 00000000 00:14 5791066                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Test.so.5.6.2
+7fbc1d07c000-7fbc1d27b000 ---p 00030000 00:14 5791066                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Test.so.5.6.2
+7fbc1d27b000-7fbc1d27d000 rwxp 0002f000 00:14 5791066                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Test.so.5.6.2
+7fbc1d27d000-7fbc1d282000 rwxp 00000000 00:00 0 
+7fbc1d282000-7fbc1d2ed000 r-xp 00000000 00:14 5791081                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5PrintSupport.so.5.6.2
+7fbc1d2ed000-7fbc1d4ec000 ---p 0006b000 00:14 5791081                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5PrintSupport.so.5.6.2
+7fbc1d4ec000-7fbc1d4f1000 rwxp 0006a000 00:14 5791081                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5PrintSupport.so.5.6.2
+7fbc1d4f1000-7fbc1d52e000 r-xp 00000000 00:14 9313281                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Positioning.so.5.6.2
+7fbc1d52e000-7fbc1d72e000 ---p 0003d000 00:14 9313281                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Positioning.so.5.6.2
+7fbc1d72e000-7fbc1d730000 rwxp 0003d000 00:14 9313281                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Positioning.so.5.6.2
+7fbc1d730000-7fbc1d731000 rwxp 00000000 00:00 0 
+7fbc1d731000-7fbc1d76a000 r-xp 00000000 00:14 5791074                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Sensors.so.5.6.2
+7fbc1d76a000-7fbc1d969000 ---p 00039000 00:14 5791074                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Sensors.so.5.6.2
+7fbc1d969000-7fbc1d96d000 rwxp 00038000 00:14 5791074                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Sensors.so.5.6.2
+7fbc1d96d000-7fbc1d970000 r-xp 00000000 00:14 5791078                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5X11Extras.so.5.6.2
+7fbc1d970000-7fbc1db6f000 ---p 00003000 00:14 5791078                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5X11Extras.so.5.6.2
+7fbc1db6f000-7fbc1db70000 rwxp 00002000 00:14 5791078                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5X11Extras.so.5.6.2
+7fbc1db70000-7fbc1e175000 r-xp 00000000 00:14 9313274                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Widgets.so.5.6.2
+7fbc1e175000-7fbc1e374000 ---p 00605000 00:14 9313274                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Widgets.so.5.6.2
+7fbc1e374000-7fbc1e3a5000 rwxp 00604000 00:14 9313274                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Widgets.so.5.6.2
+7fbc1e3a5000-7fbc1e3a7000 rwxp 00000000 00:00 0 
+7fbc1e3a7000-7fbc1e97f000 r-xp 00000000 00:14 9313282                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Gui.so.5.6.2
+7fbc1e97f000-7fbc1eb7f000 ---p 005d8000 00:14 9313282                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Gui.so.5.6.2
+7fbc1eb7f000-7fbc1eb95000 rwxp 005d8000 00:14 9313282                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Gui.so.5.6.2
+7fbc1eb95000-7fbc1eb9b000 rwxp 00000000 00:00 0 
+7fbc1eb9b000-7fbc1ecae000 r-xp 00000000 00:14 5791083                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Sql.so.5.6.2
+7fbc1ecae000-7fbc1eead000 ---p 00113000 00:14 5791083                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Sql.so.5.6.2
+7fbc1eead000-7fbc1eeb3000 rwxp 00112000 00:14 5791083                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Sql.so.5.6.2
+7fbc1eeb3000-7fbc1eeb4000 rwxp 00000000 00:00 0 
+7fbc1eeb4000-7fbc1f012000 r-xp 00000000 00:14 5222619                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Network.so.5.6.2
+7fbc1f012000-7fbc1f212000 ---p 0015e000 00:14 5222619                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Network.so.5.6.2
+7fbc1f212000-7fbc1f21a000 rwxp 0015e000 00:14 5222619                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Network.so.5.6.2
+7fbc1f21a000-7fbc1f5ba000 r-xp 00000000 00:14 9313272                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5XmlPatterns.so.5.6.2
+7fbc1f5ba000-7fbc1f7b9000 ---p 003a0000 00:14 9313272                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5XmlPatterns.so.5.6.2
+7fbc1f7b9000-7fbc1f7f0000 rwxp 0039f000 00:14 9313272                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5XmlPatterns.so.5.6.2
+7fbc1f7f0000-7fbc1f828000 r-xp 00000000 00:14 5222617                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Xml.so.5.6.2
+7fbc1f828000-7fbc1fa27000 ---p 00038000 00:14 5222617                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Xml.so.5.6.2
+7fbc1fa27000-7fbc1fa29000 rwxp 00037000 00:14 5222617                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Xml.so.5.6.2
+7fbc1fa29000-7fbc1fa2a000 rwxp 00000000 00:00 0 
+7fbc1fa2a000-7fbc1fa31000 r-xp 00000000 fd:00 131300                     /lib64/libcrypt-2.12.so
+7fbc1fa31000-7fbc1fc31000 ---p 00007000 fd:00 131300                     /lib64/libcrypt-2.12.so
+7fbc1fc31000-7fbc1fc32000 r-xp 00007000 fd:00 131300                     /lib64/libcrypt-2.12.so
+7fbc1fc32000-7fbc1fc33000 rwxp 00008000 fd:00 131300                     /lib64/libcrypt-2.12.so
+7fbc1fc33000-7fbc1fc61000 rwxp 00000000 00:00 0 
+7fbc1fc61000-7fbc1fcac000 r-xp 00000000 00:14 7522440                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaUtil.so
+7fbc1fcac000-7fbc1feac000 ---p 0004b000 00:14 7522440                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaUtil.so
+7fbc1feac000-7fbc1feaf000 rwxp 0004b000 00:14 7522440                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaUtil.so
+7fbc1feaf000-7fbc1feb2000 rwxp 00000000 00:00 0 
+7fbc1feb2000-7fbc1feb7000 r-xp 00000000 00:14 7522434                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSysBase.so
+7fbc1feb7000-7fbc200b7000 ---p 00005000 00:14 7522434                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSysBase.so
+7fbc200b7000-7fbc200b8000 rwxp 00005000 00:14 7522434                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSysBase.so
+7fbc200b8000-7fbc200b9000 rwxp 00000000 00:00 0 
+7fbc200b9000-7fbc20101000 r-xp 00000000 00:14 7522443                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSys.so
+7fbc20101000-7fbc20300000 ---p 00048000 00:14 7522443                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSys.so
+7fbc20300000-7fbc20303000 rwxp 00047000 00:14 7522443                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDMFileSys.so
+7fbc20303000-7fbc20304000 rwxp 00000000 00:00 0 
+7fbc20304000-7fbc203a7000 r-xp 00000000 00:14 11340897                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaWafer.so
+7fbc203a7000-7fbc205a7000 ---p 000a3000 00:14 11340897                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaWafer.so
+7fbc205a7000-7fbc205ae000 rwxp 000a3000 00:14 11340897                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaWafer.so
+7fbc205ae000-7fbc205b0000 rwxp 00000000 00:00 0 
+7fbc205b0000-7fbc205e7000 r-xp 00000000 00:14 11340901                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCM.so
+7fbc205e7000-7fbc207e7000 ---p 00037000 00:14 11340901                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCM.so
+7fbc207e7000-7fbc207ea000 rwxp 00037000 00:14 11340901                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCM.so
+7fbc207ea000-7fbc207ec000 r-xp 00000000 00:14 7522450                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclPlugIn.so
+7fbc207ec000-7fbc209ec000 ---p 00002000 00:14 7522450                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclPlugIn.so
+7fbc209ec000-7fbc209ed000 rwxp 00002000 00:14 7522450                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclPlugIn.so
+7fbc209ed000-7fbc20fee000 r-xp 00000000 00:14 11340893                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclHelp.so
+7fbc20fee000-7fbc211ed000 ---p 00601000 00:14 11340893                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclHelp.so
+7fbc211ed000-7fbc211ee000 rwxp 00600000 00:14 11340893                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclHelp.so
+7fbc211ee000-7fbc211ef000 rwxp 00000000 00:00 0 
+7fbc211ef000-7fbc212d9000 r-xp 00000000 00:14 11340895                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDM.so
+7fbc212d9000-7fbc214d8000 ---p 000ea000 00:14 11340895                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDM.so
+7fbc214d8000-7fbc214e2000 rwxp 000e9000 00:14 11340895                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDM.so
+7fbc214e2000-7fbc214e4000 rwxp 00000000 00:00 0 
+7fbc214e4000-7fbc21513000 r-xp 00000000 00:14 7522444                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCommon.so
+7fbc21513000-7fbc21713000 ---p 0002f000 00:14 7522444                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCommon.so
+7fbc21713000-7fbc21714000 rwxp 0002f000 00:14 7522444                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaCommon.so
+7fbc21714000-7fbc21715000 rwxp 00000000 00:00 0 
+7fbc21715000-7fbc2192b000 r-xp 00000000 00:14 8021465                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTech.so
+7fbc2192b000-7fbc21b2a000 ---p 00216000 00:14 8021465                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTech.so
+7fbc21b2a000-7fbc21b42000 rwxp 00215000 00:14 8021465                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTech.so
+7fbc21b42000-7fbc21b44000 rwxp 00000000 00:00 0 
+7fbc21b44000-7fbc21ec0000 r-xp 00000000 00:14 11340898                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaBase.so
+7fbc21ec0000-7fbc220c0000 ---p 0037c000 00:14 11340898                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaBase.so
+7fbc220c0000-7fbc220e2000 rwxp 0037c000 00:14 11340898                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaBase.so
+7fbc220e2000-7fbc22107000 rwxp 00000000 00:00 0 
+7fbc22107000-7fbc22916000 r-xp 00000000 00:14 7522438                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDesign.so
+7fbc22916000-7fbc22b15000 ---p 0080f000 00:14 7522438                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDesign.so
+7fbc22b15000-7fbc22b68000 rwxp 0080e000 00:14 7522438                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaDesign.so
+7fbc22b68000-7fbc22b6f000 rwxp 00000000 00:00 0 
+7fbc22b6f000-7fbc22b78000 r-xp 00000000 00:14 7522447                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangBase.so
+7fbc22b78000-7fbc22d77000 ---p 00009000 00:14 7522447                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangBase.so
+7fbc22d77000-7fbc22d78000 rwxp 00008000 00:14 7522447                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangBase.so
+7fbc22d78000-7fbc22d88000 r-xp 00000000 00:14 7522449                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaPlugIn.so
+7fbc22d88000-7fbc22f87000 ---p 00010000 00:14 7522449                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaPlugIn.so
+7fbc22f87000-7fbc22f89000 rwxp 0000f000 00:14 7522449                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaPlugIn.so
+7fbc22f89000-7fbc22f8a000 rwxp 00000000 00:00 0 
+7fbc22f8a000-7fbc231a8000 r-xp 00000000 00:14 11340896                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangInfo.so
+7fbc231a8000-7fbc233a7000 ---p 0021e000 00:14 11340896                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangInfo.so
+7fbc233a7000-7fbc233c4000 rwxp 0021d000 00:14 11340896                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaLangInfo.so
+7fbc233c4000-7fbc233d2000 r-xp 00000000 00:14 7522441                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclCommon.so
+7fbc233d2000-7fbc235d2000 ---p 0000e000 00:14 7522441                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclCommon.so
+7fbc235d2000-7fbc235d3000 rwxp 0000e000 00:14 7522441                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclCommon.so
+7fbc235d3000-7fbc235e3000 r-xp 00000000 00:14 7522445                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclBase.so
+7fbc235e3000-7fbc237e3000 ---p 00010000 00:14 7522445                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclBase.so
+7fbc237e3000-7fbc237e4000 rwxp 00010000 00:14 7522445                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTclBase.so
+7fbc237e4000-7fbc237e5000 rwxp 00000000 00:00 0 
+7fbc237e5000-7fbc2449f000 r-xp 00000000 00:14 11340891                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTcl.so
+7fbc2449f000-7fbc2469e000 ---p 00cba000 00:14 11340891                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTcl.so
+7fbc2469e000-7fbc246bb000 rwxp 00cb9000 00:14 11340891                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/OA/lib/linux_rhel50_gcc48x_64/opt/liboaTcl.so
+7fbc246bb000-7fbc24734000 r-xp 00000000 00:14 7639004                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/oasis/lib/liboasis-O.so
+7fbc24734000-7fbc24933000 ---p 00079000 00:14 7639004                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/oasis/lib/liboasis-O.so
+7fbc24933000-7fbc24935000 rwxp 00078000 00:14 7639004                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/oasis/lib/liboasis-O.so
+7fbc24935000-7fbc24937000 rwxp 00000000 00:00 0 
+7fbc24937000-7fbc24ac0000 r-xp 00000000 00:14 5133080                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libsym_datacore-O.so
+7fbc24ac0000-7fbc24cbf000 ---p 00189000 00:14 5133080                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libsym_datacore-O.so
+7fbc24cbf000-7fbc24ccb000 rwxp 00188000 00:14 5133080                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libsym_datacore-O.so
+7fbc24ccb000-7fbc24ccc000 rwxp 00000000 00:00 0 
+7fbc24ccc000-7fbc24cf2000 r-xp 00000000 00:14 5133076                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libmym_core-O.so
+7fbc24cf2000-7fbc24ef1000 ---p 00026000 00:14 5133076                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libmym_core-O.so
+7fbc24ef1000-7fbc24ef4000 rwxp 00025000 00:14 5133076                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libmym_core-O.so
+7fbc24ef4000-7fbc24fd4000 r-xp 00000000 00:14 5133075                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libgui_controls-O.so
+7fbc24fd4000-7fbc251d4000 ---p 000e0000 00:14 5133075                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libgui_controls-O.so
+7fbc251d4000-7fbc251dc000 rwxp 000e0000 00:14 5133075                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libgui_controls-O.so
+7fbc251dc000-7fbc25688000 r-xp 00000000 00:14 5133079                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libsnpsst-O.so
+7fbc25688000-7fbc25888000 ---p 004ac000 00:14 5133079                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libsnpsst-O.so
+7fbc25888000-7fbc258aa000 rwxp 004ac000 00:14 5133079                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/MYMLibrary/lib/libsnpsst-O.so
+7fbc258aa000-7fbc258ab000 rwxp 00000000 00:00 0 
+7fbc258ab000-7fbc25a58000 r-xp 00000000 00:14 10144158                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/fsdb/lib/libnsys.so
+7fbc25a58000-7fbc25c57000 ---p 001ad000 00:14 10144158                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/fsdb/lib/libnsys.so
+7fbc25c57000-7fbc25c63000 rwxp 001ac000 00:14 10144158                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/fsdb/lib/libnsys.so
+7fbc25c63000-7fbc25c74000 rwxp 00000000 00:00 0 
+7fbc25c74000-7fbc261f6000 r-xp 00000000 00:14 10144160                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/fsdb/lib/libnffr.so
+7fbc261f6000-7fbc263f5000 ---p 00582000 00:14 10144160                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/fsdb/lib/libnffr.so
+7fbc263f5000-7fbc2641a000 rwxp 00581000 00:14 10144160                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/fsdb/lib/libnffr.so
+7fbc2641a000-7fbc26e99000 rwxp 00000000 00:00 0 
+7fbc26e99000-7fbc273b6000 r-xp 00000000 00:14 5791070                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Core.so.5.6.2
+7fbc273b6000-7fbc275b6000 ---p 0051d000 00:14 5791070                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Core.so.5.6.2
+7fbc275b6000-7fbc275c3000 rwxp 0051d000 00:14 5791070                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/qt/lib/libQt5Core.so.5.6.2
+7fbc275c3000-7fbc275c7000 rwxp 00000000 00:00 0 
+7fbc275c7000-7fbc275e3000 r-xp 00000000 00:14 2946620                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libz.so.1.2.11
+7fbc275e3000-7fbc277e3000 ---p 0001c000 00:14 2946620                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libz.so.1.2.11
+7fbc277e3000-7fbc277e4000 rwxp 0001c000 00:14 2946620                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libz.so.1.2.11
+7fbc277e4000-7fbc2794f000 r-xp 00000000 00:14 2946622                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libstdc++.so.6.0.21
+7fbc2794f000-7fbc27b4e000 ---p 0016b000 00:14 2946622                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libstdc++.so.6.0.21
+7fbc27b4e000-7fbc27b58000 r-xp 0016a000 00:14 2946622                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libstdc++.so.6.0.21
+7fbc27b58000-7fbc27b5a000 rwxp 00174000 00:14 2946622                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/lib/libstdc++.so.6.0.21
+7fbc27b5a000-7fbc27b5f000 rwxp 00000000 00:00 0 
+7fbc27b5f000-7fbc27b70000 r-xp 00000000 00:14 224375                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_date_time-mt.so.1.59.0
+7fbc27b70000-7fbc27d70000 ---p 00011000 00:14 224375                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_date_time-mt.so.1.59.0
+7fbc27d70000-7fbc27d71000 rwxp 00011000 00:14 224375                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_date_time-mt.so.1.59.0
+7fbc27d71000-7fbc27d77000 r-xp 00000000 00:14 10953384                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_chrono-mt.so.1.59.0
+7fbc27d77000-7fbc27f77000 ---p 00006000 00:14 10953384                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_chrono-mt.so.1.59.0
+7fbc27f77000-7fbc27f78000 rwxp 00006000 00:14 10953384                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_chrono-mt.so.1.59.0
+7fbc27f78000-7fbc27f79000 rwxp 00000000 00:00 0 
+7fbc27f79000-7fbc28014000 r-xp 00000000 00:14 2473166                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_log_setup-mt.so.1.59.0
+7fbc28014000-7fbc28214000 ---p 0009b000 00:14 2473166                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_log_setup-mt.so.1.59.0
+7fbc28214000-7fbc28219000 rwxp 0009b000 00:14 2473166                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_log_setup-mt.so.1.59.0
+7fbc28219000-7fbc2821b000 rwxp 00000000 00:00 0 
+7fbc2821b000-7fbc282c5000 r-xp 00000000 00:14 2473168                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_log-mt.so.1.59.0
+7fbc282c5000-7fbc284c5000 ---p 000aa000 00:14 2473168                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_log-mt.so.1.59.0
+7fbc284c5000-7fbc284cb000 rwxp 000aa000 00:14 2473168                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_log-mt.so.1.59.0
+7fbc284cb000-7fbc284cc000 rwxp 00000000 00:00 0 
+7fbc284cc000-7fbc284f1000 r-xp 00000000 00:14 10953381                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_thread-mt.so.1.59.0
+7fbc284f1000-7fbc286f1000 ---p 00025000 00:14 10953381                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_thread-mt.so.1.59.0
+7fbc286f1000-7fbc286f3000 rwxp 00025000 00:14 10953381                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_thread-mt.so.1.59.0
+7fbc286f3000-7fbc286f6000 r-xp 00000000 00:14 2473167                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_system-mt.so.1.59.0
+7fbc286f6000-7fbc288f5000 ---p 00003000 00:14 2473167                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_system-mt.so.1.59.0
+7fbc288f5000-7fbc288f6000 rwxp 00002000 00:14 2473167                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_system-mt.so.1.59.0
+7fbc288f6000-7fbc288f7000 rwxp 00000000 00:00 0 
+7fbc288f7000-7fbc288fd000 r-xp 00000000 00:14 2473162                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_chrono.so.1.59.0
+7fbc288fd000-7fbc28afd000 ---p 00006000 00:14 2473162                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_chrono.so.1.59.0
+7fbc28afd000-7fbc28afe000 rwxp 00006000 00:14 2473162                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_chrono.so.1.59.0
+7fbc28afe000-7fbc28b02000 r-xp 00000000 00:14 224369                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_timer.so.1.59.0
+7fbc28b02000-7fbc28d01000 ---p 00004000 00:14 224369                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_timer.so.1.59.0
+7fbc28d01000-7fbc28d02000 rwxp 00003000 00:14 224369                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_timer.so.1.59.0
+7fbc28d02000-7fbc28d03000 rwxp 00000000 00:00 0 
+7fbc28d03000-7fbc28d2c000 r-xp 00000000 00:14 224367                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_wserialization.so.1.59.0
+7fbc28d2c000-7fbc28f2c000 ---p 00029000 00:14 224367                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_wserialization.so.1.59.0
+7fbc28f2c000-7fbc28f2e000 rwxp 00029000 00:14 224367                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_wserialization.so.1.59.0
+7fbc28f2e000-7fbc28f45000 r-xp 00000000 00:14 10953380                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_signals.so.1.59.0
+7fbc28f45000-7fbc29145000 ---p 00017000 00:14 10953380                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_signals.so.1.59.0
+7fbc29145000-7fbc29146000 rwxp 00017000 00:14 10953380                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_signals.so.1.59.0
+7fbc29146000-7fbc29147000 rwxp 00000000 00:00 0 
+7fbc29147000-7fbc29182000 r-xp 00000000 00:14 224371                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_serialization.so.1.59.0
+7fbc29182000-7fbc29382000 ---p 0003b000 00:14 224371                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_serialization.so.1.59.0
+7fbc29382000-7fbc29385000 rwxp 0003b000 00:14 224371                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_serialization.so.1.59.0
+7fbc29385000-7fbc29469000 r-xp 00000000 00:14 10953375                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_regex.so.1.59.0
+7fbc29469000-7fbc29669000 ---p 000e4000 00:14 10953375                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_regex.so.1.59.0
+7fbc29669000-7fbc2966e000 rwxp 000e4000 00:14 10953375                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_regex.so.1.59.0
+7fbc2966e000-7fbc2966f000 rwxp 00000000 00:00 0 
+7fbc2966f000-7fbc296ec000 r-xp 00000000 00:14 2473160                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_program_options.so.1.59.0
+7fbc296ec000-7fbc298ec000 ---p 0007d000 00:14 2473160                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_program_options.so.1.59.0
+7fbc298ec000-7fbc298f0000 rwxp 0007d000 00:14 2473160                    /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_program_options.so.1.59.0
+7fbc298f0000-7fbc29905000 r-xp 00000000 00:14 10953378                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_iostreams.so.1.59.0
+7fbc29905000-7fbc29b05000 ---p 00015000 00:14 10953378                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_iostreams.so.1.59.0
+7fbc29b05000-7fbc29b06000 rwxp 00015000 00:14 10953378                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_iostreams.so.1.59.0
+7fbc29b06000-7fbc29b07000 rwxp 00000000 00:00 0 
+7fbc29b07000-7fbc29b1e000 r-xp 00000000 00:14 10953382                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_filesystem.so.1.59.0
+7fbc29b1e000-7fbc29d1e000 ---p 00017000 00:14 10953382                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_filesystem.so.1.59.0
+7fbc29d1e000-7fbc29d1f000 rwxp 00017000 00:14 10953382                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_filesystem.so.1.59.0
+7fbc29d1f000-7fbc29d22000 r-xp 00000000 00:14 224373                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_system.so.1.59.0
+7fbc29d22000-7fbc29f21000 ---p 00003000 00:14 224373                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_system.so.1.59.0
+7fbc29f21000-7fbc29f22000 rwxp 00002000 00:14 224373                     /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_system.so.1.59.0
+7fbc29f22000-7fbc29f23000 rwxp 00000000 00:00 0 
+7fbc29f23000-7fbc29f34000 r-xp 00000000 00:14 10953379                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_date_time.so.1.59.0
+7fbc29f34000-7fbc2a134000 ---p 00011000 00:14 10953379                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_date_time.so.1.59.0
+7fbc2a134000-7fbc2a135000 rwxp 00011000 00:14 10953379                   /mnt/vol_NFS_Zener/tools/synopsys/apps/customcompiler/N-2017.12-3/linux64/boost/lib/libsnps_boost_1_59_0_date_time.so.1.59.0
+7fbc2a135000-7fbc2a136000 r-xs 00000000 fd:00 923904                     /var/cache/fontconfig/b4d0b56f766d89640448751fcd18ec1e-le64.cache-3
+7fbc2a136000-7fbc2a13d000 r-xs 00000000 fd:00 912671                     /var/cache/fontconfig/928306c3ad40271d946e41014a49fc28-le64.cache-3
+7fbc2a13d000-7fbc2a13e000 r-xs 00000000 fd:00 913325                     /var/cache/fontconfig/1248881498ac025e45c3042f6afe9284-le64.cache-3
+7fbc2a13e000-7fbc2a141000 r-xs 00000000 fd:00 928598                     /var/cache/fontconfig/beeeeb3dfe132a8a0633a017c99ce0c0-le64.cache-3
+7fbc2a141000-7fbc2a147000 rwxp 00000000 00:00 0 
+7ffd05d66000-7ffd05d87000 rwxp 00000000 00:00 0                          [stack]
+7ffd05dfa000-7ffd05dfb000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
