@@ -70,7 +70,7 @@ xmsw2 vout net21 vin net20 pel w=7.5u l=720.0n as=4.32e-13 ad=4.32e-13 ps=2.76e-
 +  pd=2.76e-06 nrs=0.3 nrd=0.3 m='(1*1)' par1='(1*1)'
 xminv2 net21 clk net20 net20 pe w=1.54u l=180.0n as=7.392e-13 ad=7.392e-13 ps=4.04e-06
 +  pd=4.04e-06 nrs=0.175325 nrd=0.175325 m='(1*1)' par1='(1*1)'
-ch1 vout gnd! c=15p
+ch1 vout gnd! c=23p
 v5 net20 gnd! dc=1.8 power=0
 xminv1 net21 clk gnd! gnd! ne w=360.0n l=180.0n as=1.728e-13 ad=1.728e-13 ps=1.68e-06
 +  pd=1.68e-06 nrs=0.75 nrd=0.75 m='(1*1)' par1='(1*1)' xf_subext=0
@@ -80,7 +80,7 @@ xminv1 net21 clk gnd! gnd! ne w=360.0n l=180.0n as=1.728e-13 ad=1.728e-13 ps=1.6
 * Source
 ********************************************************************************
 .subckt source out1
-v0 out1 gnd! dc=0 sin ( 0.25 0.02 1.5k 25n 0 0 )
+v0 out1 gnd! dc=0 sin ( 0.25 0.6 2MEG 25n 0 0 )
 .ends source
 
 ********************************************************************************

@@ -11,7 +11,7 @@
 .GLOBAL gnd!
 
 *Test the OL frequency response
-.AC DEC 100 10MEG 10000G
+.AC DEC 100 10MEG 100G
 Vp vinp 0 DC 0.5 AC 1
 Rbig vout vinm 100MEG
 Cbig vinm gnd! 10u
@@ -19,7 +19,7 @@ Cbig vinm gnd! 10u
 
 **Test OL gain
 *.tran 0.5ns 450u 
-*Vsin 	vinp 	gnd! 	sin ( 0 0.00005 10k 2n 0 0 )
+*Vsin 	vinp 	gnd! 	sin ( 0 0.00005 1MEG 2n 0 0 )
 *Vgnd	vinm	gnd!	dc=0 power=0
 *Cp vout gnd! 1p
 
