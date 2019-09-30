@@ -34,7 +34,7 @@ module top();
 	//Execution of tb
     	initial begin
         	clk = 1'b0;
-		#3000000 $finish();   // 10 ciclos de reloj
+		#1000000000 $finish();   // 10 ciclos de reloj
     	end
 
 endmodule
