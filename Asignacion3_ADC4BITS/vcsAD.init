@@ -1,0 +1,2 @@
+choose xa -hspice source.sp -c xa.cfg -o top;
+use_spice -cell source;

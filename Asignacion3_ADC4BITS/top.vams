@@ -1,0 +1,34 @@
+/////////////////////////////////////////
+// Reg 8bits
+// Ing. Diego Salazar
+//
+/////////////////////////////////////////
+
+`timescale 1ps/1ps
+`include "disciplines.vams"
+`include "/mnt/vol_NFS_Zener/WD_ESPEC/disalazar/EM_Projects/MixedSignal/Asignacion1_CombFilter/reg8.v"
+`include "/mnt/vol_NFS_Zener/WD_ESPEC/disalazar/EM_Projects/MixedSignal/Asignacion1_CombFilter/add8.v"
+
+module top();
+    reg clk;
+    wire [7:0] out_adc,out_reg,out_add;
+    wire Filter_out;
+    wire Filter_in;
+
+    source xsource(Filter_in);
+    adc xadc(out_adc, Filter_in, clk);
+    dac xdac(Filter_out,out_add,clk);
+    reg8 xREG8(out_adc,out_reg,clk);
+    add8 xADD8(out_adc,out_reg,out_add);
+
+    always  #1000 clk = ~clk; //reloj de 100 MHz
+
+    initial begin
+        clk = 1'b0;
+	#900000 $finish();   // 9usec
+    end
+endmodule
+
+module source(output wire out1);
+    electrical out1;
+endmodule
