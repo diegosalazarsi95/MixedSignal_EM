@@ -1,0 +1,36 @@
+/////////////////////////////////////////
+// N-bit ADC from VerligoAMS_Designers
+// Ing. Diego Salazar
+//
+/////////////////////////////////////////
+
+`include "disciplines.vams"
+`timescale 1ps / 1ps
+
+module adc(out, in, clk);
+    parameter integer bits = 8 from [1:24];   // resolution (bits)
+    parameter real fullscale =1;           // input range is from 0 to fullscale (V)
+    parameter real td = 0;                    // delay from clock to output (ps)
+    input in, clk;
+    output out;
+    logic clk, out;
+    electrical in;
+    reg [bits-1:0] out;
+
+    reg over;
+    real sample, midpoint;
+    integer i;
+
+    always @(posedge clk) begin
+        sample = V(in);
+        midpoint = fullscale/2.0;
+        for (i = bits - 1; i >= 0; i = i - 1) begin
+            over = (sample > midpoint);
+            if (over) sample = sample - midpoint;
+            sample = 2.0*sample;
+            out[i] <= #(td) over;
+        end  // End For
+    end // End always
+
+endmodule
+

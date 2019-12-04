@@ -1,0 +1,66 @@
+/////////////////////////////////////////
+// Reg 8bits
+// Ing. Diego Salazar
+//
+/////////////////////////////////////////
+
+`timescale 10ps/10ps
+`include "disciplines.vams"
+`include "/mnt/vol_NFS_Zener/WD_ESPEC/disalazar/EM_Projects/MixedSignal/Asignacion4_FiltroFIR/fir.v"
+
+module top();
+    	//Signals
+	//Fuente
+	wire vsource;
+	//S/H
+    	wire vout_sh;
+	//ADC y DAC	
+	wire [7:0] adc_out;
+	wire [15:0] dac_in;
+	wire dac_out;
+	//Relojes
+	reg clk_a,clk_d;
+	voltage clk_analog;
+	real x;
+		
+	//Clocks definition
+	always  #5000 clk_a = ~clk_a; //reloj 100 kHz 
+    	always	#5000 clk_d = ~clk_d; // reloj de 1 MHz
+	analog begin
+    		V(clk_analog)<+x;
+    	end 
+	always @(clk_a) begin
+    		case(clk_a)
+       			1'b1: begin x=1.8; end
+       			1'b0: begin x=0;   end
+    		endcase 
+    	end
+	
+	initial begin
+        	clk_a = 1'b1;
+		clk_d = 1'b0;
+		#12000000 $finish();   // 9usec
+    	end
+
+	//Instation of analog circuits
+	source xsource (vsource);
+	sampleandhold xsampleandhold (clk_analog,vsource,vout_sh);
+	adc xadc(adc_out,vout_sh,clk_d);
+	fir xfir(adc_out,dac_in,clk_d);
+	dac xdac(dac_out,dac_in,clk_d);
+
+
+endmodule
+
+
+module source(output wire out1);
+    	electrical out1;
+endmodule
+
+module sampleandhold(input wire clk,input wire vin,output wire vout);
+	electrical clk;
+	electrical vin;
+	electrical vout;
+endmodule
+
+
