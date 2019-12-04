@@ -6,29 +6,71 @@
 
 `timescale 1ps/1ps
 `include "disciplines.vams"
-`include "/mnt/vol_NFS_Zener/WD_ESPEC/disalazar/EM_Projects/MixedSignal/Asignacion1_CombFilter/reg8.v"
-`include "/mnt/vol_NFS_Zener/WD_ESPEC/disalazar/EM_Projects/MixedSignal/Asignacion1_CombFilter/add8.v"
+`include "/mnt/vol_NFS_Zener/WD_ESPEC/disalazar/EM_Projects/MixedSignal/Asignacion3_ADC4BITS/comparison_module.v"
 
 module top();
-    reg clk;
-    wire [7:0] out_adc,out_reg,out_add;
-    wire Filter_out;
-    wire Filter_in;
+    	//Signals
+    	voltage vout_sh,vsource;
+	voltage clk_analog;
+	reg clk_a,clk_digital,clk_dac;
+	reg compare_result_digital;
+	logic [3:0] adc_out;
+	logic [3:0] dac_in;
+	electrical dac_out;
+	electrical compare_result_analog;
+	real x;
+	real compare_aux;
+		
+	//Clocks definition
+	always  #5000 clk_a = ~clk_a; //reloj 100 kHz 
+    	always	#500 clk_digital = ~clk_digital; // reloj de 1 MHz
+	always	#50 clk_dac = ~clk_dac; // reloj de 10 MHz
+	analog begin
+    		V(clk_analog)<+x;
+    	end 
+	always @(clk_a) begin
+    		case(clk_a)
+       			1'b1: begin x=1.8; end
+       			1'b0: begin x=0;   end
+    		endcase 
+    	end
+	
+	//CompareResult from Analog to Digital
+    	always @(posedge clk_digital) begin 
+        	compare_aux = V(compare_result_analog);
+        	compare_result_digital = (compare_aux>0.9);
+    	end	
+	
 
-    source xsource(Filter_in);
-    adc xadc(out_adc, Filter_in, clk);
-    dac xdac(Filter_out,out_add,clk);
-    reg8 xREG8(out_adc,out_reg,clk);
-    add8 xADD8(out_adc,out_reg,out_add);
 
-    always  #1000 clk = ~clk; //reloj de 100 MHz
+	initial begin
+        	clk_a = 1'b1;
+		clk_digital = 1'b1;
+		clk_dac = 1'b1;
+		#900000 $finish();   // 9usec
+    	end
+	//Instation of analog circuits
+	source xsource (vsource);
+	sampleandhold xsampleandhold (clk_analog,vsource,vout_sh);
+	opamp xopamp(vout_sh,dac_out,compare_result_analog);
+	dac xdac(dac_out,dac_in,clk_dac);
+	comparison_module xcm(adc_out,dac_in,compare_result_digital,clk_a,clk_digital);
 
-    initial begin
-        clk = 1'b0;
-	#900000 $finish();   // 9usec
-    end
 endmodule
 
+
 module source(output wire out1);
-    electrical out1;
+    	electrical out1;
+endmodule
+
+module sampleandhold(input wire clk,input wire vin,output wire vout);
+	electrical clk;
+	electrical vin;
+	electrical vout;
+endmodule
+
+module opamp(input wire vinp,input wire vinm,output wire vout);
+	electrical vinp;
+	electrical vinm;
+	electrical vout;
 endmodule

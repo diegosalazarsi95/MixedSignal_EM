@@ -23,18 +23,13 @@ module comparison_module(adc_out,dac_in,compare_result,rstp,clk);
 			state = 4'd0;
 		end
 		else begin
-			if(state == 4'd4) begin
-				state = 4'd0;
-			end
-			else begin
-				state = state + 4'd1;
-			end
+			state = state + 4'd1;
 		end
 	end
 	assign rst = (state == 4'd0) ? 1 : 0;
-	assign adc_out = (state == 4'd0) ? {adc3,adc2,adc1,adc0} : adc_out;
+	assign adc_out = (state == 4'd5) ? {adc3,adc2,adc1,adc0} : adc_out;
 
-	shift_reg sreg(.out({s3,s2,s1,s0}),.rst(rst),.clk(clk));
+	shift_reg sreg(.out({s3,s2,s1,s0}),.selector(state),.rst(rst),.clk(clk));
 
 	and_m and3 (.A(compare_result),.B(s3),.O(d3));
 	and_m and2 (.A(compare_result),.B(s2),.O(d2));
@@ -70,19 +65,19 @@ module digital_comparison(adc_out,dac_in,selector,rst,clk);
 		end
 		else begin
 			case(selector)
-			4'd0: begin
+			4'd1: begin
 				dac_in = 4'b1000;
 			end
-			4'd1: begin
+			4'd2: begin
 				dac_in = {adc_out[3],3'b100};
 			end
-			4'd2: begin
+			4'd3: begin
 				dac_in = {adc_out[3:2],2'b10};
 			end
-			4'd3: begin
+			4'd4: begin
 				dac_in = {adc_out[3:1],1'b1};
 			end
-			4'd4: begin
+			4'd5: begin
 				dac_in = adc_out[3:0];
 			end
 			//default: selector = 0;
@@ -111,17 +106,35 @@ endmodule
 //
 /////////////////////////////////////////
 
-module shift_reg(out,rst,clk);
+module shift_reg(out,selector,rst,clk);
 	input rst;
 	input clk;
+	input 	[3:0] selector;
 	output reg [3:0] out;
 
 	always@(posedge clk or posedge rst) begin
 		if(rst) begin
-			out = 4'b1000;
+			out <= 4'b1000;
 		end
 		else begin
-			out = {1'b0,out[3:1]};
+			case(selector)
+			4'd1: begin
+				out = 4'b1000;
+			end
+			4'd2: begin
+				out = 4'b0100;
+			end
+			4'd3: begin
+				out = 4'b0010;
+			end
+			4'd4: begin
+				out = 4'b0001;
+			end
+			4'd5: begin
+				out = 4'b0000;
+			end
+			//default: selector = 0;
+			endcase
 		end
 	end
 endmodule

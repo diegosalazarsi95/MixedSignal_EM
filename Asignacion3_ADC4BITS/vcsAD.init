@@ -1,2 +1,4 @@
-choose xa -hspice source.sp -c xa.cfg -o top;
+choose xa -hspice analog_circuit.sp -c xa.cfg -o top;
 use_spice -cell source;
+use_spice -cell sampleandhold;
+use_spice -cell opamp;

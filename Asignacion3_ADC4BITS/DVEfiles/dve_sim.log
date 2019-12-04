@@ -1,0 +1,4 @@
+00:45:24    16 -->                                                             [tcl] ucliGUI::connect -toolargs -ucligui -toolexe ./demo -pid 24674 -toolin /tmp/vcs_20191007064520_24673_ESTUDIANTESdisalazar..stdin -toolout /tmp/vcs_20191007064520_24673_ESTUDIANTESdisalazar..stdout  
+00:45:24    17 -->                                                                 [tcl] set ucliGUI::state
+00:45:24    18 -->                                                                     [tcl] set ucliGUI::state
+00:45:24    19 -->                                                                         [tcl] ucliCore::getToolPID

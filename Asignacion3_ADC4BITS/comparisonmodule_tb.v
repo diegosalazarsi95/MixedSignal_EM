@@ -24,6 +24,9 @@ module comparisonmodule_tb;
 		#25 clk = ~clk;
 	end
 	initial begin
+		$vcdpluson;
+		$dumpfile("comparison_module.vcd");
+		$dumpvars(0,comparison_module);
 		clk = 0;
 		rstp = 1;
 		compare_result = 0;

@@ -1,0 +1,3 @@
+Error: [UCLI-026] Tool type problem
+Internal error while executing synopsys::connect, failed to find -toolin file '/tmp/vcs_20191007064520_24673_ESTUDIANTESdisalazar..stdin'.
+If problem persists, please report this error to a Synopsys representative.
